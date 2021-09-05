@@ -1,0 +1,199 @@
+@techreport{pub11177,
+    author = {Profitlich, Hans-Jürgen and Sonntag, Daniel},
+    title = {Interactivity and Transparency in Medical Risk Assessment with Supersparse Linear Integer Models},
+    series = {DFKI Research Reports (RR)},
+    year = {2019},
+    volume = {abs/1911.12119},
+    journal = {CoRR},
+    institution = {BMBF},
+    publisher = {ArXiv},
+    howpublished = "\url{https://www.dfki.de/fileadmin/user_upload/import/11177_integer.pdf}"
+}
+@article{pub10833,
+    author = {Sonntag, Daniel},
+    title = {Künstliche Intelligenz in der Medizin -- Holzweg oder Heilversprechen?},
+    year = {2019},
+    volume = {67},
+    number = {5},
+    pages = {343--349},
+    journal = {HNO},
+    publisher = {Springer}
+}
+@inbook{pub10812,
+    author = {Sonntag, Daniel and Sonntag, Daniel and Krüger, Antonio},
+    editor = {Oviatt, Sharon and Sonntag, Daniel and Krüger, Antonio and Schuller, Björn W and Cohen, Philip R and Potamianos, Gerasimos},
+    title = {Medical and Health Systems},
+    booktitle = {The Handbook of Multimodal-Multisensor Interfaces: Language Processing, Software, Commercialization, and Emerging Directions - Volume 3},
+    year = {2019},
+    pages = {423--476},
+    publisher = {Association for Computing Machinery and Morgan & Claypool},
+    isbn = {9781970001754}
+}
+@inproceedings{pub10518,
+    author = {Prange, Alexander and Sonntag, Daniel},
+    title = {Modeling Cognitive Status through Automatic Scoring of a Digital Version of the Clock Drawing Test},
+    booktitle = {Proceedings of the 27th ACM Conference on User Modeling, Adaptation and Personalization. International Conference on User Modeling, Adaptation, and Personalization (UMAP-2019), 27th, June 9-12, Larnaca, Cyprus},
+    year = {2019},
+    pages = {70--77},
+    publisher = {ACM}
+}
+@inproceedings{pub10353,
+    author = {Prange, Alexander and Niemann, Mira and Latendorf, Antje and Steinert, Anika and Sonntag, Daniel},
+    title = {Multimodal Speech-based Dialogue for the Mini-Mental State Examination},
+    booktitle = {Extended Abstracts of the 2019 CHI Conference on Human Factors in Computing Systems. ACM International Conference on Human Factors in Computing Systems (CHI-2019), May 4-9, Glasgow, United Kingdom},
+    series = {CHI EA '19},
+    year = {2019},
+    pages = {13--1},
+    publisher = {ACM},
+    isbn = {978-1-4503-5971-9}
+}
+@incollection{pub10492,
+    author = {Feld, Michael and Neßelrath, Robert and Schwartz, Tim},
+    editor = {Oviatt, Sharon and Schuller, Björn and Cohen, Philip R. and Sonntag, Daniel and Potamianos, Gerasimos and Krüger, Antonio},
+    title = {Software Platforms and Toolkits for Building Multimodal Systems and Applications},
+    booktitle = {The Handbook of Multimodal-Multisensor Interfaces, Volume 3 -- Language Processing, Software, Commercialization, and Emerging Directions},
+    series = {ACM Books series (ACM Books)},
+    edition = {First Edition},
+    year = {2019},
+    month = {7},
+    volume = {#23},
+    chapter = {4},
+    pages = {145--190},
+    publisher = {Morgan & Claypool Publishers},
+    isbn = {978-1-97000-175-4}
+}
+@article{pub10895,
+    author = {Barz, Michael and Sonntag, Daniel},
+    title = {Incremental Improvement of a Question Answering System by Re-ranking Answer Candidates using Machine Learning},
+    year = {2019},
+    month = {8},
+    volume = {abs/1908.10149},
+    pages = {1--13},
+    journal = {Computing Research Repository eprint Journal (CoRR)},
+    publisher = {arXiv}
+}
+@inproceedings{pub10520,
+    author = {Kalimuthu, Marimuthu and Barz, Michael and Sonntag, Daniel},
+    title = {Incremental Domain Adaptation for Neural Machine Translation in Low-Resource Settings},
+    booktitle = {Proceedings of the Fourth Arabic Natural Language Processing Workshop. Arabic Natural Language Processing Workshop (WANLP-2019), 4th, befindet sich ACL, August 1-2, Florence, Italy},
+    year = {2019},
+    month = {8},
+    pages = {1--10},
+    publisher = {Association for Computational Linguistics},
+    note = {https://www.aclweb.org/anthology/W19-4601}
+}
+@techreport{pub10725,
+    author = {Sonntag, Daniel},
+    title = {Wie funktionieren neuronale Netze eigentlich?},
+    series = {DFKI Technical Memos (TM)},
+    year = {2019},
+    month = {9},
+    volume = {1},
+    pages = {2},
+    institution = {DFKI}
+}
+@inproceedings{pub10707,
+    author = {Biswas, Rajarshi and Mogadala, Aditya and Barz, Michael and Sonntag, Daniel and Klakow, Dietrich},
+    editor = {Martin-Vide, Carlos and Purver, Matthew and Pollak, Senja},
+    title = {Automatic Judgement of Neural Network-Generated Image Captions},
+    booktitle = {Statistical Language and Speech Processing 7th International Conference Proceedings. Statistical Language and Speech Processing (SLSP-2019), 7th, befindet sich SLSP is a yearly conference series aimed at promoting and displaying excellent research on the wide spectrum of statistical methods that are currently in use in computational language or speech processing., October 14-16, Ljubljana, Slovenia},
+    series = {Lecture Notes in Computer Science / Lecture Notes in Artificial Intelligence (LNCS)},
+    edition = {7},
+    year = {2019},
+    month = {9},
+    volume = {11816},
+    pages = {261--272},
+    address = {Jamova cesta 39
+1000 Ljubljana
+Slovenia},
+    organization = {Jo¸ef Stefan Institute},
+    publisher = {Springer},
+    isbn = {978-3-030-31372-2}
+}
+@article{pub11374,
+    author = {Heimann-Steinert, A. and Latendorf, A. and Prange, Alexander and Sonntag, Daniel and Müller-Werdan, U.},
+    title = {Digital pen technology for conducting cognitive assessments: a cross-over study with older adults},
+    year = {2020},
+    volume = {85},
+    pages = {1--9},
+    journal = {Psychological Research},
+    publisher = {Springer}
+}
+@inproceedings{pub11113,
+    author = {Nunnari, Fabrizio and Bhuvaneshwara, Chirag and Ezema, Abraham Obinwanne and Sonntag, Daniel},
+    editor = {Holzinger, Andreas and Kieseberg, Peter and Tjoa, A Min and Weippl, Edgar},
+    title = {A Study on the Fusion of Pixels and Patient Metadata in CNN-Based Classification of Skin Lesion Images},
+    booktitle = {Machine Learning and Knowledge Extraction. International IFIP Cross Domain (CD) Conference for Machine Learning & Knowledge Extraction (MAKE) (CD-MAKE-2020), August 25-28, Dublin, Ireland},
+    year = {2020},
+    pages = {191--208},
+    publisher = {Springer International Publishing},
+    isbn = {978-3-030-57321-8}
+}
+@techreport{pub10809,
+    author = {Sonntag, Daniel},
+    title = {Künstliche Intelligenz gegen das Coronavirus},
+    series = {DFKI Technical Memos (TM)},
+    year = {2020},
+    volume = {1},
+    institution = {DFKI, BMBF, BMG}
+}
+@techreport{pub10912,
+    author = {Sonntag, Daniel and Nunnari, Fabrizio and Profitlich, Hans-Jürgen},
+    title = {The Skincare project, an interactive deep learning system for differential diagnosis of malignant skin lesions.},
+    series = {DFKI Research Reports (RR)},
+    year = {2020},
+    month = {5},
+    volume = {1},
+    pages = {20},
+    address = {Bundesministerium für Bildung und Forschung
+Kapelle-Ufer 1
+D-10117 Berlin},
+    institution = {BMBF, H2020}
+}
+@inproceedings{pub10893,
+    author = {Barz, Michael and Stauden, Sven and Sonntag, Daniel},
+    editor = {Bulling, Andreas and Huckauf, Anke and Jain, Eakta and Radach, Ralph and Weiskopf, Daniel},
+    title = {Visual Search Target Inference in Natural Interaction Settings with Machine Learning},
+    booktitle = {ACM Symposium on Eye Tracking Research and Applications. Symposium on Eye Tracking Research & Applications (ETRA-2020), Stuttgart, Germany},
+    year = {2020},
+    month = {5},
+    publisher = {Association for Computing Machinery}
+}
+@article{pub11236,
+    author = {Biswas, Rajarshi and Barz, Michael and Sonntag, Daniel},
+    title = {Towards Explanatory Interactive Image Captioning Using Top-Down and Bottom-Up Features, Beam Search and Re-ranking},
+    year = {2020},
+    month = {7},
+    volume = {36},
+    pages = {1--14},
+    journal = {KI - Künstliche Intelligenz, German Journal on Artificial Intelligence - Organ des Fachbereiches "Künstliche Intelligenz" der Gesellschaft für Informatik e.V. (KI)},
+    publisher = {Springer}
+}
+@inproceedings{pub10894,
+    author = {Barz, Michael and Altmeyer, Kristin and Malone, Sarah and Lauer, Luisa and Sonntag, Daniel},
+    title = {Digital Pen Features Predict Task Difficulty and User Performance of Cognitive Tests},
+    booktitle = {Proceedings of the 28th ACM Conference on User Modeling, Adaptation and Personalization. International Conference on User Modeling, Adaptation, and Personalization (UMAP-2020), July 12-18, Genoa, Italy},
+    year = {2020},
+    month = {7},
+    publisher = {ACM}
+}
+@inproceedings{pub11178,
+    author = {Nguyen, Ho Minh Duy and Ezema, Abraham and Nunnari, Fabrizio and Sonntag, Daniel},
+    title = {A Visually Explainable Learning System for Skin Lesion Detection Using Multiscale Input with Attention U-Net},
+    booktitle = {KI 2020: Advances in Artificial Intelligence. German Conference on Artificial Intelligence (KI-2020), 43rd, September 21-25, Bamberg, Germany},
+    series = {Lecture Notes in Computer Science (LNCS)},
+    year = {2020},
+    month = {9},
+    volume = {12325},
+    pages = {313--319},
+    publisher = {Springer}
+}
+@inproceedings{pub11368,
+    author = {Nunnari, Fabrizio and Ezema, Abraham and Sonntag, Daniel},
+    title = {The effects of masking in melanoma image classification with CNNs towards international standards for image preprocessing},
+    booktitle = {2020 EAI International Symposium on Medical Artificial Intelligence. EAI International Symposium on Medical Artificial Intelligence (MedAI-2020), December 18, Online-Conference},
+    year = {2020},
+    month = {12},
+    publisher = {EAI},
+    note = {Virtual Conference}
+}
