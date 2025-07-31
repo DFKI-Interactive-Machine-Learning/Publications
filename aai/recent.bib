@@ -1,350 +1,611 @@
-@inproceedings{pub14164,
-    author = {Kuznetsov, Konstantin and Barz, Michael and Sonntag, Daniel
-},
-    title = {Detection of Contract Cheating in Pen-and-Paper Exams through the Analysis of Handwriting Style},
-    booktitle = {Companion Publication of the 25th International Conference on Multimodal Interaction. ACM International Conference on Multimodal Interaction (ICMI-2023), October 9-13, Paris, France},
-    series = {ICMI '23 Companion},
-    year = {2023},
-    pages = {26--30},
-    publisher = {Association for Computing Machinery},
-    isbn = {9798400703218}
+@techreport{pub15565,
+    series = {Technical Note},
+    abstract = {Computational sustainability (CS) is the scientific field that aims to balance societal, economic, and environmental
+resources using methods from computer science and artificial intelligence (AI). AI models, e.g., machine learning
+models, enrich models of computational sustainability. Research in interactive machine learning can make important
+contributions to help address key challenges of sustainability (AI for CS). Computational sustainability questions enrich
+AI research, not only by providing problems that involve uncertainty or vagueness, thus generating compelling new AI
+challenges, but also by providing a requirement framework for resource-bounded computation (CS for AI).
+The research department Interactive machine learning of the German Research Center for Artificial Intelligence hosts
+“Computational Sustainability & Technology”; we use applied artificial intelligence methods in the areas of machine
+learning, knowledge representation, and intelligent user interfaces to help achieve more sustainable systems (AI for CS)
+or to build more sustainable AI systems (CS for AI).
+Using the power of, for example, deep learning computers, we can process large quantities of information and
+allocate resources based on real-time information. On the other hand, we have to decide when to regulate the power
+consumption of such AI systems. Applications are widespread. For example, smart grids implement renewable resources
+and storage capabilities to control the production and expenditure of energy. In the project Seadash, we work on
+integrating machine learning methods for event detection and classification of underwater signals to preserve marine
+fauna. Further, together with edge computing (the new distributed computing paradigm that brings computation and
+data storage closer to the location where it is needed) we do not only improve response times and save bandwidth, but
+also reduce energy consumption (Mobile AI Lab).
+The theory of computational sustainability includes aspects from game theory, machine learning theory and human
+computer interaction theory. For example, climate change, pollution, and other environmental crises can be explained by
+theories of human psychology (e.g., the individual in a social world) and can hence be computed by (machine learning)
+models with computational models of the Prisoner’s Dilemma. More is More? More computation is not always more,
+as unsustainable consumption of energy should be avoided. There are already interesting approaches in the machine
+learning community, e.g., towards the systematic reporting of the energy and carbon footprints of machine learning or
+looking at methodological issues related to training on big data and large web corpora where billions or even trillions
+of parameters are tuned. Humans, on the contrary, can do such “training” with only a few examples or from simple
+instructions (cf. interactive machine learning, https://www.dfki.de/iml/).
+AI for CS and CS for AI and the application domains bring us back to the main challenges of artificial intelligence
+research and applied research in the area of CS technology: (1) Incompleteness, (2) vagueness, (3) uncertainty and
+reasoning (in deep learning), and (4) resource-bounded computation and learning. In our projects, we tackle these
+theoretical challenges and focus on imitation learning, learning with small datasets, transfer learning, long term
+autonomy of sustainable AI systems, never ending learning, hybrid teams, IoT, multi-sensor streams for small interaction devices, mobile computing platforms (Mobile AI Lab), and the efficient use of big deep learning clusters.},
+    year = {2025},
+    title = {Computational Sustainability and Technology (CST)},
+    volume = {-},
+    institution = {Deutsches Forschungszentrum für Künstliche Intelligenz GmbH},
+    author = {Daniel Sonntag},
+    url = {https://www.dfki.de/fileadmin/user_upload/import/15565_Technical_Note__CST_.pdf}
 }
 
-@inbook{pub14630,
-    author = {Kadir, Md Abdul and Addluri, Gowthamkrishna and Sonntag, Daniel
-},
-    editor = {Seipel, Dietmar and Steen, Alexander
-},
-    title = {Harmonizing Feature Attributions Across Deep Learning Architectures: Enhancing Interpretability and Consistency},
-    booktitle = {German Conference on Artificial Intelligence},
+@inproceedings{pub15620,
+    abstract = {Prompt learning methods are gaining increasing attention due to their ability to customize large vision-language models to new domains using pre-trained contextual knowledge and minimal training data. However, existing works typically rely on optimizing unified prompt inputs, often struggling with fine-grained classification tasks due to insufficient discriminative attributes. To tackle this, we consider a new framework based on a dual context of both domain-shared and class-specific contexts, where the latter is generated by Large Language Models (LLMs) such as GPTs. Such dual prompt methods enhance the model’s feature representation by joining implicit and explicit factors encoded in LLM knowledge. Moreover, we formulate the Unbalanced Optimal Transport (UOT) theory to quantify the relationships between constructed prompts and visual tokens. Through partial matching, UOT can properly align discrete sets of visual tokens and prompt embeddings under different mass distributions, which is particularly valuable for handling irrelevant or noisy elements, ensuring that the preservation of mass does not restrict transport solutions. Furthermore, UOT’s characteristics integrate seamlessly with image augmentation, expanding the training sample pool while maintaining a reasonable distance between perturbed images and prompt inputs. Extensive experiments across few-shot classification and adapter settings substantiate the superiority of our model over current state-of-the-art baselines.},
+    year = {2025},
+    title = {Dude: Dual Distribution-Aware Context Prompt Learning For Large Vision-Language Model},
+    booktitle = {The 16th Asian Conference on Machine Learning. Asian Conference on Machine Learning (ACML-2024), December 5-8},
+    publisher = {Proceedings of Machine Learning Research},
+    author = {Ho Minh Duy Nguyen and An T. Le and Trung Q. Nguyen and Nghiem T. Diep and Tai Nguyen and Duy Duong-Tran and Jan Peters and Li Shen and Mathias Niepert and Daniel Sonntag},
+    url = {https://www.dfki.de/fileadmin/user_upload/import/15620_199_Dude_Dual_Distribution_Awa.pdf}
+}
+
+@inproceedings{pub15769,
+    abstract = {Integrating Artificial Intelligence (AI) into Clinical Decision Support Systems (CDSS) presents significant opportunities for improving healthcare delivery, particularly in fields like ophthalmology. This paper explores the usability and trustworthiness of an AI-driven CDSS designed to assist ophthalmologists in treating diabetic retinopathy and age-related macular degeneration. Therefore, we created a CDSS and evaluated its impact on efficiency, informedness, and user experience through task-based semi-structured interviews and questionnaires with 11 ophthalmologists. The usability of the CDSS was rated highly, with a SUS of 81.75. Additionally, results show that participants felt like the CDSS would improve their efficiency and informedness with one major aspect being integrating Electronic Health Records (EHR) and Optical Coherence Tomography (OCT) data into a single interface. Additionally, we explored aspects of the trustworthiness of AI components, specifically OCT segmentation, treatment recommendation, and visual acuity forecasting. Through thematic analysis, we identified key factors influencing trustworthiness and clinical adoption. Results show that a larger degree of abstraction from input to output of a model correlates with decreased trust. From our findings, we propose three guidelines for designing trustworthy CDSS.},
+    month = {3},
+    year = {2025},
+    title = {Towards Trustable Clinical Decision Support Systems: A User Study with Ophthalmologists},
+    booktitle = {IUI '25: Proceedings of the 30th International Conference on Intelligent User Interfaces. International Conference on Intelligent User Interfaces (IUI-2025), March 24-27, Cagliari, Italy},
+    isbn = {979-8-4007-1306-4},
+    publisher = {Association for Computing Machinery, New York, NY, United States},
+    author = {Robert Leist and Hans-Jürgen Profitlich and Tim Hunsicker and Daniel Sonntag},
+    keywords = {Clinical Decision Support Systems (CDSS), Interactive Machine Learning (IML), Human-AI collaboration, AI-assisted decision making, user trust, domain experts, ophthalmology},
+    url = {https://dl.acm.org/doi/10.1145/3708359.3712136 https://www.dfki.de/fileadmin/user_upload/import/15769_3708359.3712136.pdf}
+}
+
+@proceedings{pub15775,
+    abstract = {Interpreting fundus images is an essential skill for diagnosing eye diseases, such as diabetic retinopathy (DR), one of the leading causes of visual impairment. However, the training of junior doctors relies on experienced ophthalmologists, who often lack time for teaching, or on printed training material that lacks variability in examples. Additionally, machine learning (ML) models successfully detect pathologies relevant to DR and grade the corresponding severity level of cases. With that, our work combines advances in ML with the need of junior doctors to learn independently. We present an interactive learning tool for ophthalmology, which lets junior doctors mark pathologies in fundus images and check them upon the solution of an applied ML algorithm. By aligning the learning concept with theories of cognitive load, usability, and e-learning factors, this system serves as a testbed to explore the potential of ML-supported learning tools for medical education, advancing interactive e-learning.},
+    year = {2025},
+    title = {FunduScope: A Human-centered Tool for ML-assisted e-Learning in Ophthalmology. International Conference on Intelligent User Interfaces (IUI-2025), located at IUI-2025, March 24-27, Cagliari, Italy},
+    editor = {Sara-Jane Bittner and Michael Barz and Hans-Jürgen Profitlich and Mika P. Nieminen and Daniel Sonntag},
+    isbn = {979-8-4007-1409-2},
+    publisher = {ACM},
+    doi = {https://doi.org/10.1145/3708557.3716356},
+    keywords = {human-centered design, cognitive load, usability, e-learning, machine learning, learning tool},
+    organization = {ACM}
+}
+
+@proceedings{pub15776,
+    abstract = {The integration of Multimodal-Multisensor Interface (MMI) technologies into Virtual Reality (VR) enables users to engage with computational systems in a natural and immersive way. However, these technologies remain underexplored when applied to deep learning (DL) systems in VR. This paper introduces a VR-based system designed to evaluate how users interact with DL models in virtual environments using MMI technologies, demonstrated through a photobook co-creation use case. The system facilitates human-AI collaboration (co-creation) by allowing users to work with DL models to create photobooks and supports incremental model learning based on user behaviour (Interactive DL) to produce personalised outputs. The tool features a Unity VR frontend that incorporates speech, gaze, and controller inputs. It has a modular backend architecture that allows seamless integration and testing of different DL models. This tool serves as a testbed for exploring MMI in immersive VR environments for both IDL and co-creation.},
+    year = {2025},
+    title = {Interactive Multimodal Photobook Co-Creation in Virtual Reality. International Conference on Intelligent User Interfaces (IUI-2025), located at IUI-2025, March 24-27, Cagliari, Italy},
+    editor = {Sara-Jane Bittner and Robert Leist and László Kopácsi and Omair Shahzad Bhatti and Abdulrahman Mohamed Selim and Michael Barz and Daniel Sonntag},
+    isbn = {979-8-4007-1409-2},
+    publisher = {ACM},
+    doi = {https://doi.org/10.1145/3708557.3716355},
+    keywords = {Virtual Reality, Interaction Design, Co-Creation, Interactive Deep Learning, Photobook Creation},
+    organization = {ACM}
+}
+
+@inproceedings{pub15777,
+    abstract = {Verification of biomedical claims is critical for healthcare decision-making, public health policy and scientific research.  We present an interactive biomedical claim verification system by integrating LLMs, transparent model explanations, and user-guided justification. In the system, users first retrieve relevant scientific studies from a persistent medical literature corpus and explore how different LLMs perform natural language inference (NLI) within task-adaptive reasoning framework to classify each study as "Support," "Contradict," or "Not Enough Information" regarding the claim. Users can examine the model's reasoning process with additional insights provided by SHAP values that highlight word-level contributions to the final result. This combination enables a more transparent and interpretable evaluation of the model's decision-making process. A summary stage allows users to consolidate the results by selecting a result with narrative justification generated by LLMs. As a result, a consensus-based final decision is summarized for each retrieved study, aiming safe and accountable AI-assisted decision-making in biomedical contexts. We aim to integrate this explainable verification system as a component within a broader evidence synthesis framework to support human-AI collaboration.},
+    month = {3},
+    year = {2025},
+    title = {Explainable Biomedical Claim Verification with Large Language Models},
+    booktitle = {Joint Proceedings of the ACM IUI Workshops 2025. International Conference on Intelligent User Interfaces (IUI-2025), ACM IUI Workshops 2025, located at IUI-2025, March 24-27, Cagliari, Italy},
+    publisher = {Joint Proceedings of the ACM IUI Workshops 2025},
+    author = {Siting Liang and Daniel Sonntag},
+    keywords = {Biomedical Claim Verification, Large Language Models, Natural Language Inference, Explainable AI},
+    url = {https://axai.trx.li/papers/5.pdf https://www.dfki.de/fileadmin/user_upload/import/15777_explainable_biomedical_claim_verification_with_LLMs.pdf}
+}
+
+@inproceedings{pub15810,
+    abstract = {EcoScape Analyzer addresses the need for flexible soundscape analysis to evaluate biodiversity and ecosystem health. Designed for Passive Acoustic Monitoring (PAM) data, it integrates diverse feature extraction methods (acoustic indices, self-supervised, and transfer learning embeddings), dimensionality reduction techniques, and clustering approaches. The tool offers adaptable pipelines, performance feedback, and visualizations, enabling ecologists to explore soundscape patterns and dynamics efficiently, without the need for custom implementations.},
+    month = {3},
+    year = {2025},
+    title = {EcoScape Analyzer: A Tool for Performing Soundscape Analysis With Flexible Pipeline for Biodiversity Assessment},
+    booktitle = {IUI '25: Proceedings of the 30th International Conference on Intelligent User Interfaces. International Conference on Intelligent User Interfaces (IUI-2025), March 24-27, Cagliari, Italy},
+    pages = {137-140},
+    isbn = {9781450375139},
+    publisher = {Association for Computing Machinery, New York, NY, United States},
+    doi = {https://dl.acm.org/doi/10.1145/3708557.3716359},
+    author = {Rida Saghir and Ivan Braga Campos and Thiago Gouvea and Daniel Sonntag},
+    url = {https://dl.acm.org/doi/10.1145/3708557.3716359}
+}
+
+@inproceedings{pub15811,
+    abstract = {Biodiversity loss is a major threat to global sustainability and achieving conservation goals requires informed governance, which depends on robust biodiversity monitoring. Passive Acoustic Monitoring (PAM) enables scalable, continuous data collection, but the vast amount of unlabelled audio data necessitates efficient analysis techniques. While traditional methods focus on species identification, soundscape analysis provides a broader view of ecosystem health by capturing acoustic diversity, temporal patterns, and human impact. To address these challenges, researchers have explored various feature extraction methods, including acoustic indices, predefined acoustical features (PAFs), and AI-based techniques like self-supervised and transfer learning. However, their effectiveness varies by task at hand, requiring careful selection, comparison and technical domain knowledge. This research focuses on development of a tool for soundscape analysis that allows users to flexibly switch between methods and compare outputs in ecologically meaningful ways. By integrating computational techniques with domain relevant information, this research aims to improve biodiversity monitoring and ecosystem assessment.},
+    month = {3},
+    year = {2025},
+    title = {Flexible and Interpretable Soundscape Analysis for Biodiversity Assessment and Ecosystem Health for Domain Experts},
+    booktitle = {IUI '25: Proceedings of the 30th International Conference on Intelligent User Interfaces. International Conference on Intelligent User Interfaces (IUI-2025), March 24-27, Cagliari, Italy},
+    pages = {218-221},
+    isbn = {9781450375139},
+    publisher = {Association for Computing Machinery, New York, NY, United States},
+    doi = {https://dl.acm.org/doi/full/10.1145/3708557.3716144},
+    author = {Rida Saghir},
+    url = {https://dl.acm.org/doi/full/10.1145/3708557.3716144}
+}
+
+@inproceedings{pub15814,
+    abstract = {Large language models remain constrained by the limitations of current user interfaces and interaction paradigms, which hinder their ability to process complex, multimodal information beyond simple text input and output. Our proposed interface, TextVision, aims to address this limitation by enhancing how researchers interact with AI, providing a wide range of functionalities for analyzing, editing, creating new documents, and facilitating collaboration. TextVision advances state-of-the-art human-AI interaction through improved usability and novel interaction techniques, enhancing scientific research and development workflows. As a result, the user can access integrated tools, including a text editor, a PDF viewer, and an AI assistant in a chatbot format. The AI assistant can provide answers based on user input and is context-aware. This output can be enhanced using the built-in prompt designing tool to create efficient, AI-optimized prompts. Users can also select between the latest proprietary LLMs and fine-tuned open-source models tailored for specific tasks.},
+    year = {2025},
+    title = {TextVision: A more efficient way to work with research},
+    booktitle = {Joint Proceedings of the ACM IUI Workshops 2025. International Conference on Intelligent User Interfaces (IUI-2025), March 24-28, Cagliari, Italy},
+    editor = {-},
+    publisher = {CEUR Proceedings},
+    author = {Melis Aslan and Maximilian Bosse and Daniel Christian Helmuth Ehlers and Marlon Hinz and Philipp Olschewski and Jannik Podszun and Elias Scharlach and Leon Selzer and Yukun Wu and Aliki Anagnostopoulou and Daniel Sonntag},
+    url = {https://www.dfki.de/fileadmin/user_upload/import/15814_TextVision_MIND_submission.pdf}
+}
+
+@misc{pub15815,
+    abstract = {We propose an approach for personalised and contextualised image captioning. As pre-trained vision-language systems fail to capture details about the user’s intent, occasion, and other information related to the image, we envision a system that addresses these limitations. This approach has two key components for which we need to find suitable practical implementations: multimodal RAG and automatic prompt engineering. We outline our idea and review different possibilities to address these tasks.},
+    month = {3},
+    year = {2025},
+    title = {Self-improving Scene Understanding with Vision-Language Knowledge Integration [Extended Abstract]},
+    howpublished = {MIND workshop at the IUI'25 Conference},
+    author = {Aliki Anagnostopoulou and Hasan Md Tusfiqur Alam and Daniel Sonntag},
+    status_notes = {nicht publiziert - als Poster vorgestellt},
+    url = {https://www.dfki.de/fileadmin/user_upload/import/15815_ssuvlaki_extended_abstract.pdf}
+}
+
+@inproceedings{pub15818,
+    abstract = {Diabetic Retinopathy (DR) and Age-related Macular Degeneration (AMD) are among the leading causes of blindness worldwide. Despite the availability of treatments to prevent disease progression, the effectiveness of these interventions is often limited by inefficiencies in existing clinical software. Recent advancements in Artificial Intelligence (AI) offer the potential to enhance Clinical Decision Support Systems (CDSS), streamlining workflows and reducing the burden on healthcare providers. This paper introduces a CDSS designed to assist ophthalmologists in the management of DR and AMD, integrating three AI-driven components. First, we developed a segmentation model for automated analysis of medical imaging data. Second, we implemented a recommendation algorithm to guide treatment decisions. Finally, we utilized a time series forecasting model to enable predictive medicine. Our models were trained using real-world clinical data from 913 patients with AMD and 461 patients with DR. The system demonstrates promising performance, underscoring the importance of high-performing AI models in advancing CDSS for ophthalmology. The code for our CDSS is available here: https://github.com/DFKI-Interactive-Machine-Learning/ophthalmo-cdss.},
+    month = {5},
+    year = {2025},
+    title = {An AI-driven Clinical Decision Support System for the Treatment of Diabetic Retinopathy and Age-related Macular Degeneration},
+    booktitle = {Joint Proceedings of the ACM IUI Workshops 2025. Workshop on Intelligent and Interactive Health User Interfaces (HealthIUI-2025), located at IUI-2025, March 24, Cagliary, Italy},
+    publisher = {Association of Computing Machinery, New York, NY, United States},
+    author = {Robert Leist and Hans-Jürgen Profitlich and Daniel Sonntag},
+    keywords = {Health informatics, Interactive systems and tools, Visualization, Clinical Decision Support Systems (CDSS), Interactive Machine Learning (IML), Human-AI collaboration, AI-assisted decision making, ophthalmology},
+    organization = {Association of Computing Machinery},
+    url = {https://www.dfki.de/fileadmin/user_upload/import/15818_submission.pdf}
+}
+
+@inproceedings{pub15823,
     series = {Lecture Notes in Computer Science},
-    year = {2023},
-    pages = {90--97},
-    publisher = {Springer, Cham},
-    isbn = {978-3-031-42607-0}
+    abstract = {Deep learning has advanced medical image classification, but interpretability challenges hinder its clinical adoption. This study enhances interpretability in Chest X-ray (CXR) classification by using concept bottleneck models (CBMs) and a multi-agent Retrieval-Augmented Generation (RAG) system for report generation. By modeling relationships between visual features and clinical concepts, we create interpretable concept vectors that guide a multi-agent RAG system to generate radiology reports, enhancing clinical relevance, explainability, and transparency. Evaluation of the generated reports using an LLM-as-a-judge confirmed the interpretability and clinical utility of our model’s outputs. On the COVID-QU dataset, our model achieved 81% classification accuracy and demonstrated robust report generation performance, with five key metrics ranging between 84% and 90%. This interpretable multi-agent framework bridges the gap between high-performance AI and the explainability required for reliable AI-driven CXR analysis in clinical settings. Our code will be released at https://github.com/tifat58/IRR-with-CBM-RAG},
+    month = {4},
+    year = {2025},
+    title = {Towards Interpretable Radiology Report Generation via Concept Bottlenecks Using a Multi-agentic RAG},
+    booktitle = {Advances in Information Retrieval - 47th European Conference on Information Retrieval, ECIR 2025, Lucca, Italy, April 6-10, 2025, Proceedings, Part III. European Conference on Information Retrieval (ECIR-2025), 47th European Conference on Information Retrieval, located at ECIR 2025, April 6-10, Lucca, Italy},
+    editor = {Claudia Hauff and Craig Macdonald and Dietmar Jannach and Gabriella Kazai and Franco Maria Nardini and Fabio Pinelli and Fabrizio Silvestri and Nicola Tonellotto},
+    volume = {15574},
+    pages = {201-209},
+    publisher = {Springer},
+    doi = {https://doi.org/10.1007/978-3-031-88714-7_18},
+    author = {Hasan Md Tusfiqur Alam and Devansh Srivastav and Md Abdul Kadir and Daniel Sonntag},
+    keywords = {Interpretable Radiology Report Generation, Concept Bottleneck Models , Multi-Agent RAG, Explainable AI, LLMs, VLMs},
+    url = {https://doi.org/10.1007/978-3-031-88714-7_18 https://www.dfki.de/fileadmin/user_upload/import/15823_Towards_interpretable_cbm.pdf}
 }
 
-@inproceedings{pub14635,
-    author = {Kadir, Md Abdul and Alam, Hasan Md Tusfiqur and Sonntag, Daniel
-},
-    title = {EdgeAL: An Edge Estimation Based Active Learning Approach for OCT Segmentation},
-    booktitle = {International Conference on Medical Image Computing and Computer-Assisted Intervention. Medical Image Computing and Computer Assisted Intervention (MICCAI-2023)},
-    year = {2023},
-    pages = {79--89},
-    organization = {Springer},
-    publisher = {Springer, Cham}
+@inproceedings{pub15937,
+    series = {EICS '25 Companion, EICS '25 Companion},
+    abstract = {Advancements in generative Artificial Intelligence (AI) hold great promise for automating radiology workflows, yet challenges in interpretability and reliability hinder clinical adoption. This paper presents an automated radiology report generation framework that combines Concept Bottleneck Models (CBMs) with a Multi-Agent Retrieval-Augmented Generation (RAG) system to bridge AI performance with clinical explainability. CBMs map chest X-ray features to human-understandable clinical concepts, enabling transparent disease classification. Meanwhile, the RAG system integrates multi-agent collaboration and external knowledge to produce contextually rich, evidence-based reports. Our demonstration showcases the system’s ability to deliver interpretable predictions, mitigate hallucinations, and generate high-quality, tailored reports with an interactive interface addressing accuracy, trust, and usability challenges. This framework provides a pathway to improving diagnostic consistency and empowering radiologists with actionable insights.},
+    month = {6},
+    year = {2025},
+    title = {CBM-RAG: Demonstrating Enhanced Interpretability in Radiology Report Generation with Multi-Agent RAG and Concept Bottleneck Models},
+    booktitle = {Companion Proceedings of the 17th ACM SIGCHI Symposium on Engineering Interactive Computing Systems. ACM SIGCHI Symposium on Engineering Interactive Computing Systems (EICS-2025), 17th ACM SIGCHI Symposium on Engineering Interactive Computing Systems, located at EICS-2025, June 23-27, Trier, Germany},
+    pages = {59-61},
+    isbn = {9798400718663},
+    publisher = {Association for Computing Machinery},
+    doi = {https://doi.org/10.1145/3731406.3731970},
+    author = {Hasan Md Tusfiqur Alam and Devansh Srivastav and Abdulrahman Mohamed Selim and Md Abdul Kadir and Md Moktadirul Hoque Shuvo and Daniel Sonntag},
+    keywords = {Interpretable Radiology report generation, Disease classification, Medical imaging, Concept Bottleneck Models (CBM), Retrieval-Augmented Generation (RAG), Information Retrieval, VLMs, LLMs.},
+    url = {https://doi.org/10.1145/3731406.3731970 https://www.dfki.de/fileadmin/user_upload/import/15937_cbm_rag_eics_2025.pdf}
 }
 
-@inproceedings{pub14708,
-    author = {Kadir, Md Abdul and Mosavi, Amir and Sonntag, Daniel
-},
-    title = {Evaluation Metrics for XAI: A Review, Taxonomy, and Practical Applications},
-    booktitle = {2023 IEEE 27th International Conference on Intelligent Engineering Systems (INES). Conference on Intelligent Engineering Systems (INES-2023), Kenya},
-    year = {2023},
-    pages = {000111--000124},
-    publisher = {IEEE}
+@inproceedings{pub15938,
+    series = {EICS '25 Companion, EICS '25 Companion},
+    abstract = {This paper presents InFL-UX, an interactive, proof-of-concept browser-based Federated Learning (FL) toolkit designed to integrate user contributions into the machine learning (ML) workflow. InFL-UX enables users across multiple devices to upload datasets, define classes, and collaboratively train classification models directly in the browser using modern web technologies. Unlike traditional FL toolkits, which often focus on backend simulations, InFL-UX provides a simple user interface for researchers to explore how users interact with and contribute to FL systems in real-world, interactive settings. InFL-UX bridges the gap between FL and interactive ML by prioritising usability and decentralised model training, empowering non-technical users to actively participate in ML classification tasks.},
+    month = {6},
+    year = {2025},
+    title = {InFL-UX: A Toolkit for Web-Based Interactive Federated Learning},
+    booktitle = {Companion Proceedings of the 17th ACM SIGCHI Symposium on Engineering Interactive Computing Systems. ACM SIGCHI Symposium on Engineering Interactive Computing Systems (EICS-2025), 17th ACM SIGCHI Symposium on Engineering Interactive Computing Systems, located at EICS-2025, June 23-27, Trier, Germany},
+    pages = {65-67},
+    isbn = {9798400718663},
+    publisher = {Association for Computing Machinery},
+    doi = {https://doi.org/10.1145/3731406.3731972},
+    author = {Tim Maurer and Abdulrahman Mohamed Selim and Hasan Md Tusfiqur Alam and Matthias Eiletz and Michael Barz and Daniel Sonntag},
+    keywords = {Federated Learning; Interactive Machine Learning; Browser-based Deep Learning},
+    url = {https://doi.org/10.1145/3731406.3731972 https://www.dfki.de/fileadmin/user_upload/import/15938_inFL-UX.pdf}
 }
 
-@techreport{pub14711,
-    author = {Kath, Hannes and Gouvea, Thiago and Sonntag, Daniel
-},
-    title = {A Deep Generative Model for Interactive Data Annotation through Direct Manipulation in Latent Space},
-    series = {DFKI Research Reports (RR)},
-    year = {2023},
-    month = {5},
-    volume = {2305.15337v1},
-    pages = {7},
-    institution = {DFKI}
+@article{pub15948,
+    abstract = {Mobile eye tracking is an important tool in psychology and human-centered interaction design for understanding how people process visual scenes and user interfaces. However, analyzing recordings from head-mounted eye trackers, which typically include an egocentric video of the scene and a gaze signal, is a time-consuming and largely manual process. To address this challenge, we develop eyeNotate, a web-based annotation tool that enables semi-automatic data annotation and learns to improve from corrective user feedback. Users can manually map fixation events to areas of interest (AOIs) in a video-editing-style interface (baseline version). Further, our tool can generate fixation-to-AOI mapping suggestions based on a few-shot image classification model (IML-support version). We conduct an expert study with trained annotators (n = 3) to compare the baseline and IML-support versions. We measure the perceived usability, annotations' validity and reliability, and efficiency during a data annotation task. We asked our participants to re-annotate data from a single individual using an existing dataset (n = 48). Further, we conducted a semi-structured interview to understand how participants used the provided IML features and assessed our design decisions. In a post hoc experiment, we investigate the performance of three image classification models in annotating data of the remaining 47 individuals.},
+    number = {4},
+    month = {7},
+    year = {2025},
+    title = {eyeNotate: Interactive Annotation of Mobile Eye Tracking Data Based on Few-Shot Image Classification},
+    journal = {Journal of Eye Movement Research (JEMR)},
+    volume = {18},
+    pages = {1-35},
+    publisher = {MDPI},
+    doi = {https://doi.org/10.3390/jemr18040027},
+    author = {Michael Barz and Omair Shahzad Bhatti and Hasan Md Tusfiqur Alam and Ho Minh Duy Nguyen and Kristin Altmeyer and Sarah Malone and Daniel Sonntag},
+    keywords = {Eye Tracking; Interactive Machine Learning; Few-Shot Learning; Human-Computer Interaction},
+    url = {https://www.mdpi.com/1995-8692/18/4/27 https://www.dfki.de/fileadmin/user_upload/import/15948_jemr-18-00027.pdf}
 }
 
-@techreport{pub14710,
-    author = {Kath, Hannes and Lüers, Bengt and Gouvea, Thiago and Sonntag, Daniel
-},
-    title = {A Virtual Reality Tool for Representing, Visualizing and Updating Deep Learning Models},
-    series = {DFKI Research Reports (RR)},
-    year = {2023},
-    month = {5},
-    volume = {2305.15353v1},
-    pages = {8},
-    institution = {DFKI}
-}
-
-@article{pub14707,
-    author = {Sonntag, Daniel
-},
-    title = {Avoid Predatory Journals},
-    year = {2023},
-    month = {5},
-    volume = {37},
-    pages = {1--3},
-    journal = {KI - Künstliche Intelligenz, German Journal on Artificial Intelligence - Organ des Fachbereiches "Künstliche Intelligenz" der Gesellschaft für Informatik e.V. (KI)},
-    publisher = {Springer Berlin Heidelberg}
-}
-
-@inproceedings{pub14706,
-    author = {Bunde, Enrico and Eisenhardt, Daniel and Sonntag, Daniel and Profitlich, Hans-Jürgen and Meske, Christian
-},
-    title = {Giving DIAnA More TIME – Guidance for the Design of XAI-Based Medical Decision Support Systems},
-    booktitle = {18th International Conference on Design Science Research in Information Systems and Technology, DESRIST 2023. International Conference on Design Science Research in Information Systems and Technology (DESRIST-2023)},
-    year = {2023},
-    month = {5},
-    publisher = {Springer Nature Switzerland}
-}
-
-article{pub14703,
-    author = {Kopácsi, László and Baffy, Benjámin and Baranyi, Gábor and Skaf, Joul and Sörös, Gábor and Szeier, Szilvia and Lőrincz, András and Sonntag, Daniel
-},
-    title = {Cross-Viewpoint Semantic Mapping: Integrating Human and Robot Perspectives for Improved 3D Semantic Reconstruction},
-    year = {2023},
-    month = {5},
-    volume = {23},
-    number = {11},
-    pages = {1--17},
-    journal = {Sensors - Open Access Journal (Sensors)},
-    publisher = {MDPI}
-}
-
-@inproceedings{pub14739,
-    author = {Troshani, Ilira and Gouvea, Thiago and Sonntag, Daniel
-},
-    title = {Leveraging Sound Collections for Animal Species Classification with Weakly Supervised Learning},
-    booktitle = {3rd Annual AAAI Workshop on AI to Accelerate Science and Engineering. AAAI Workshop on AI to Accelerate Science and Engineering (AI2ASE-2024), befindet sich AAAI, Vancouver, Canada},
-    year = {2024}
-}
-
-@inproceedings{pub14738,
-    author = {Lüers, Bengt and Serafini, Patricia P. and Campos, Ivan Braga and Gouvea, Thiago and Sonntag, Daniel
-},
-    title = {BirdNET-Annotator: AI-Assisted Strong Labelling of Bird Sound Datasets},
-    booktitle = {3rd Annual AAAI Workshop on AI to Accelerate Science and Engineering. AAAI Workshop on AI to Accelerate Science and Engineering (AI2ASE), befindet sich AAAI, Vancouver, Canada},
-    year = {2024}
-}
-
-@inproceedings{pub14737,
-    author = {Kath, Hannes and Serafini, Patricia P. and Campos, Ivan Braga and Gouvea, Thiago and Sonntag, Daniel},
-    title = {Leveraging Transfer Learning and Active Learning for Sound Event Detection in Passive Acoustic Monitoring of Wildlife},
-    booktitle = {3rd Annual AAAI Workshop on AI to Accelerate Science and Engineering. AAAI Workshop on AI to Accelerate Science and Engineering (AI2ASE-2024), befindet sich AAAI, Vancouver, Canada},
-    year = {2024}
-}
-
-@article{pub14732,
-    author = {Damm, Werner and Fränzle, Martin and Kerscher, Alyssa J. and Laine, Forrest and Bengler, Klaus and Biebl, Bianca and Hagemann, Willem and Held, Moritz
-and Hess, David and Ihme, Klas and Kacianka, Severin and Lehnhoff, Sebastian and Lüdtke, Andreas and Pretschner, Alexander and Rakow, Astrid and Rieger, Jochem W. and 
-Sonntag, Daniel and Sztipanovits, Janos and Schwammberger, Maike and Schweda, Mark and Trende, Alexander and Unni, Anirudh and Veith, Eric M. S. P.
-},
-    title = {A Reference Architecture of Human Cyber-Physical Systems - Part III: Semantic Foundations},
-    year = {2024},
-    volume = {8},
+@article{pub15949,
+    abstract = {Comprehending how humans process visual information in dynamic settings is crucial for psychology and designing user-centered interactions. While mobile eye-tracking systems combining egocentric video and gaze signals can offer valuable insights, manual analysis of these recordings is time-intensive. In this work, we present a novel human-centered learning algorithm designed for automated object recognition within mobile eye-tracking settings. Our approach seamlessly integrates an object detector with a spatial relation-aware inductive message-passing network (I-MPN), harnessing node profile information and capturing object correlations. Such mechanisms enable us to learn embedding functions capable of generalizing to new object angle views, facilitating rapid adaptation and efficient reasoning in dynamic contexts as users navigate their environment. Through experiments conducted on three distinct video sequences, our interactive-based method showcases significant performance improvements over fixed training/testing algorithms, even when trained on considerably smaller annotated samples collected through user feedback. Furthermore, we demonstrate exceptional efficiency in data annotation processes and surpass prior interactive methods that use complete object detectors, combine detectors with convolutional networks, or employ interactive video segmentation.},
     number = {1},
-    pages = {1--23},
-    journal = {ACM Transactions on Cyber-Physical Systems (TCPS)},
-    publisher = {ACM}
+    month = {4},
+    year = {2025},
+    title = {I-MPN: inductive message passing network for efficient human-in-the-loop annotation of mobile eye tracking data},
+    journal = {Scientific Reports (Sci Rep)},
+    volume = {15},
+    pages = {1-17},
+    publisher = {Springer Nature},
+    doi = {https://doi.org/10.1038/s41598-025-94593-y},
+    author = {Hoang H. Le and Ho Minh Duy Nguyen and Omair Shahzad Bhatti and László Kopácsi and Thinh P. Ngo and Binh T. Nguyen and Michael Barz and Daniel Sonntag},
+    url = {https://doi.org/10.1038/s41598-025-94593-y https://www.dfki.de/fileadmin/user_upload/import/15949_s41598-025-94593-y.pdf}
 }
 
-@inproceedings{pub14721,
-    author = {Liang, Siting and Sánchez, Pablo Valdunciel and Sonntag, Daniel
-},
-    title = {Optimizing Relation Extraction in Medical Texts through Active Learning: A Comparative Analysis of Trade-offs},
-    booktitle = {Association for Computational Linguistics. Conference of the European Chapter of the Association for Computational Linguistics (EACL-2024), March 17-22, Malta, Malta},
+@inproceedings{pub15963,
+    abstract = {Biomedical claim verification involves determining the entailment relationship between a claim and evidence derived from medical studies or clinical trial reports (CTRs). In this work, we propose a structured four-step prompting strategy that explicitly guides large language models (LLMs) through (1) claim comprehension, (2) evidence analysis, (3) intermediate conclusion, and (4) entailment decision-making to improve the accuracy of biomedical claim verification. This strategy leverages compositional and human-like reasoning to enhance logical consistency and factual grounding to reduce reliance on memorizing few-shot exemplars and help LLMs generalize reasoning patterns across different biomedical claim verification tasks. Through extensive evaluation on biomedical NLI benchmarks, we analyze the individual contributions of each reasoning step. Our findings demonstrate that comprehension, evidence analysis, and intermediate conclusion each play distinct yet complementary roles. Systematic prompting and carefully designed step-wise instructions not only unlock the latent cognitive abilities of LLMs but also enhance interpretability by making it easier to trace errors and understand the model’s reasoning process. This research aims to improve the reliability of AI-driven biomedical claim verification.},
+    year = {2025},
+    title = {Advancing Biomedical Claim Verification by Using Large Language Models with Better Structured Prompting Strategies},
+    booktitle = {Proceedings of the 23rd Workshop on Biomedical Natural Language Processing. Workshop on Biomedical Natural Language Processing (BioNLP-2025), located at ACL 2025, August 1, Vienna, Austria},
+    publisher = {ACL Anthology},
+    author = {Siting Liang and Daniel Sonntag},
+    url = {https://www.dfki.de/fileadmin/user_upload/import/15963_Advancing_Biomedical_Claim_Verification_by_Using_Large_Language_Models_with_Better_Structured_Prompting_Strategies_camera_ready.pdf}
+}
+
+@inproceedings{pub15055,
+    abstract = {Passive Acoustic Monitoring (PAM) has become a key technology in wildlife monitoring, generating large amounts of acoustic data. However, the effective application of machine learning methods for sound event detection in PAM datasets is highly dependent on the accessibility of annotated data, a process that can be labour intensive. As a team of domain experts and machine learning researchers, in this paper we present a no-code annotation tool designed for PAM datasets that incorporates transfer learning and active learning strategies to address the data annotation challenge inherent in PAM. Transfer learning is applied to use pre-trained models to compute meaningful embeddings from the PAM audio files. Active learning iteratively identifies the most informative samples and then presents them to the user for annotation. This iterative approach improves the performance of the model compared to random sample selection. In a preliminary evaluation of the tool, a domain expert annotated part of a real PAM data set. Compared to conventional tools, the workflow of the proposed tool showed a speed improvement of 2-4 times. Further enhancements, such as the incorporation of sound examples, have the potential to further improve efficiency.},
+    month = {8},
     year = {2024},
-    publisher = {ACL Anthology}
+    title = {Demo: Enhancing Wildlife Acoustic Data Annotation Efficiency through Transfer and Active Learning},
+    booktitle = {Proceedings of the Thirty-Third International Joint Conference on Artificial Intelligence. International Joint Conference on Artificial Intelligence (IJCAI-2024), located at IJCAI, August 03-09, Jeju. International Joint Conference on Artificial Intelligence (IJCAI-2024), August 3-9, Jeju, Korea, Republic of},
+    publisher = {International Joint Conferences on Artificial Intelligence},
+    author = {Hannes Kath and Patricia P. Serafin and Ivan B. Campos and Thiago Gouvea and Daniel Sonntag},
+    url = {https://www.dfki.de/fileadmin/user_upload/import/15055_Demo_TransferLearning_ActiveLearning_Bioacoustic.pdf https://www.ijcai.org/proceedings/2024/1010}
 }
 
-@inbook{pub14702,
-    author = {Barz, Michael and Karagiannis, Panagiotis and Kildal, Johan and Pinto, Andoni Rivera and Munain, Judit Ruiz de and Rosel, Jesús and Madarieta, Maria 
-and Salagianni, Konstantina and Aivaliotis, Panagiotis and Makris, Sotiris and Sonntag, Daniel
-},
-    editor = {Alam, Mohammad-Reza and Fathi, Madjid},
-    title = {MASTER-XR: Mixed reAlity ecoSystem for TEaching Robotics in manufacturing},
-    booktitle = {Integrated Systems: Innovations and Applications: Results of the 8th International Conference on Integrated Systems Design and Technology (ISDT 2023)},
-    year = {2024},
-    pages = {1--16},
-    publisher = {Springer},
-    isbn = {3031536517}
-}
-
-@article{pub14705,
-    author = {Damm, Werner and Hess, David and Schweda, Mark and Sztipanovits, Janos and Bengler, Klaus and Biebl, Bianca and Fränzle, Martin and Hagemann, Willem
-and Held, Moritz and Ihme, Klas and Kacianka, Severin and Kerscher, Alyssa J and Lehnhoff, Sebastian and Luedtke, Andreas and Pretschner, Alexander and Rakow, Astrid
- and Rieger, Jochem and Sonntag, Daniel and Schwammberger, Maike and Austel, Benedikt and Unni, Anirudh and Veith, Eric
-},
-    title = {A Reference Architecture of Human Cyber-Physical Systems – Part I: Fundamental Concepts},
-    year = {2024},
-    month = {1},
-    volume = {8},
-    pages = {1--32},
-    journal = {ACM Transactions on Cyber-Physical Systems (TCPS)},
-    publisher = {ACM}
-}
-
-
-@article{pub14704,
-    author = {Bengler, Klaus and Damm, Werner and Luedtke, Andreas and Rieger, Jochem and Austel, Benedikt and Biebl, 
-Bianca and Fränzle, Martin and Hagemann, Willem and Held, Moritz and Hess, David and Ihme, Klas and Kacianka, Severin 
-and Kerscher, Alyssa J and Laine, Forrest and Lehnhoff, Sebastian and Pretschner, Alexander and Rakow, Astrid 
-and Sonntag, Daniel and Sztipanovits, Janos and Schwammberger, Maike and Schweda, Mark and  Unni, Anirudh and Veith, Eric
-},
-    title = {A References Architecture for Human Cyber Physical Systems, Part II: Fundamental Design Principles for Human-CPS Interaction},
-    year = {2024},
-    month = {1},
-    volume = {8},
-    pages = {1--27},
-    journal = {ACM Transactions on Cyber-Physical Systems (TCPS)},
-    publisher = {ACM}
-}
-
-
-@inproceedings{pub14648,
-    author = {Kath, Hannes and Lüers, Bengt and Gouvea, Thiago and Sonntag, Daniel},
-    editor = {Seipel, Dietmar and Steen, Alexander},
-    title = {Lost in Dialogue: A Review and Categorisation of Current Dialogue System Approaches and Technical Solutions},
-    booktitle = {KI 2023: Advances in Artificial Intelligence. German Conference on Artificial Intelligence (KI-2023), 46th German Conference on AI, Berlin, Germany, September 26–29, 2023, Proceedings, befindet sich 46th German Conference on AI, September 26-29, Berlin, Germany},
-    series = {Lecture Notes in Artificial Intelligence (LNAI)},
-    year = {2023},
+@inproceedings{pub15056,
+    abstract = {Passive Acoustic Monitoring (PAM) has become a key technology in wildlife monitoring, providing vast amounts of acoustic data.
+The recording process naturally generates multi-label datasets; however, due to the significant annotation time required, most available datasets use exclusive labels. While active learning (AL) has shown the potential to speed up the annotation process of multi-label PAM data, it lacks standardized performance metrics across experimental setups. We present a novel performance metric for AL, the `speedup factor', which remains constant across experimental setups. 
+It quantifies the fraction of samples required by an AL strategy compared to random sampling to achieve equivalent model performance.
+Using two multi-label PAM datasets, we investigate the effects of class sparsity, ceiling performance, number of classes, and different AL strategies on AL performance. Our results show that AL performance is superior on datasets with sparser classes, lower ceiling performance, fewer classes, and when using uncertainty sampling strategies.},
     month = {9},
-    volume = {14236},
-    pages = {98--113},
-    publisher = {Springer},
-    isbn = {978-3-031-42607-0}
+    year = {2024},
+    title = {Active Learning in Multi-label Classification of Bioacoustic Data},
+    booktitle = {KI 2024: Advances in Artificial Intelligence. German Conference on Artificial Intelligence (KI-2024), 47th German Conference on AI, Würzburg, Germany, September 25–27, 2023, Proceedings, located at 47th German Conference on AI, September 25-27, Würzburg, Germany, Germany},
+    editor = {Dietmar Seipel and Alexander Steen},
+    publisher = {Springer, Heidelberg},
+    author = {Hannes Kath and Thiago Gouvea and Daniel Sonntag},
+    url = {https://www.dfki.de/fileadmin/user_upload/import/15056_Active_Learning_in_Multi-label_Classification_of_Bioacoustic_Data.pdf}
 }
 
-@inproceedings{pub13988,
-    author = {Johns, Christoph Albert and Barz, Michael and Sonntag, Daniel},
-    editor = {Seipel, Dietmar and Steen, Alexander},
-    title = {Interactive Link Prediction as a Downstream Task for Foundational GUI Understanding Models},
-    booktitle = {KI 2023: Advances in Artificial Intelligence. German Conference on Artificial Intelligence (KI-2023), Berlin, Germany},
-    year = {2023},
+@inproceedings{pub15057,
+    abstract = {Passive Acoustic Monitoring (PAM) has become a key technology in wildlife monitoring, generating large amounts of acoustic data. However, the effective application of machine learning methods for sound event detection in PAM datasets is highly dependent on the availability of annotated data, which requires a labour-intensive effort to generate. This paper summarises two iterative, human-centred approaches that make efficient use of expert annotation time to accelerate understanding of the data: Combining transfer learning and active learning, we present an annotation tool that selects and annotates the most informative samples one at a time. To annotate multiple samples simultaneously, we present a tool that allows annotation in the embedding space of a variational autoencoder manipulated by a classification head. For both approaches, we provide no-code web applications for intuitive use by domain experts.},
     month = {9},
-    pages = {75--89},
-    publisher = {Springer Nature Switzerland},
-    isbn = {978-3-031-42608-7}
+    year = {2024},
+    title = {A Human-in-the-Loop Tool for Annotating Passive Acoustic Monitoring Datasets\\(Extended Abstract)},
+    booktitle = {KI 2024: Advances in Artificial Intelligence. German Conference on Artificial Intelligence (KI-2024), 47th German Conference on AI, Würzburg, Germany, September 25–27, 2023, Proceedings, located at 47th German Conference on AI, September 25-27, Würzburg, Germany, Germany},
+    editor = {Dietmar Seipel and Alexander Steen},
+    publisher = {Springer, Heidelberg},
+    author = {Hannes Kath and Thiago Gouvea and Daniel Sonntag},
+    url = {https://www.dfki.de/fileadmin/user_upload/import/15057_Bioacoustic_Annotation_Extended_Abstract.pdf}
 }
 
-@inproceedings{pub14499,
-    author = {Nguyen, Ho Minh Duy and Pham, Tan and Diep, Nghiem Tuong and Phan, Nghi and Pham, Quang and Tong, Vinh and Nguyen, Binh T. and Le, Ngan Hoang and Ho, Nhat and Xie, Pengtao and Sonntag, Daniel and Niepert, Mathias},
-    title = {On the Out of Distribution Robustness of Foundation Models in Medical Image Segmentation},
-    booktitle = {The Thirty-Seventh Annual Conference on Neural Information Processing Systems (NeurIPS 2023). Neural Information Processing Systems (NeurIPS), Workshop on Robustness of Few-shot and Zero-shot Learning in Foundation Models, December 10-16},
-    year = {2023},
-    month = {12},
-    publisher = {Advances in Neural Information Processing Systems}
+@inproceedings{pub15069,
+    abstract = {While data collection and annotation is crucial for training super- vised machine learning models and improving their accuracy, it can be resource-intensive. In this paper, we propose a weakly su- pervised method to extract fine-grained information from existing weakly-annotated data accumulated over time and alleviate the need for collection and annotation of fresh data. We also integrate it in an interactive tool that facilitates training and annotation. Communities comprising ecologists and other domain experts can use it to train machine learning models to detect animal species and monitor wildlife in protected areas. Our method not only improves the extraction of information from coarse labels but also simplifies the process of annotating new data for experts.. By lowering the time and expertise barrier to data annotation, we also aim to en- courage individuals with varying levels of expertise to participate more in citizen science and contribute to preserving ecosystems.},
+    month = {5},
+    year = {2024},
+    title = {Wild Data Treasures: Towards Sustainable Practices in Deep Learning for Wildlife Monitoring},
+    booktitle = {CHI EA '24: Extended Abstracts of the 2024 CHI Conference on Human Factors in Computing Systems. CHI Workshop on Sustaining Scalable Sustainability, Human-Centered Green Technology for Community-wide Carbon Reduction, located at ACM CHI 2024, May 11, Honolulu,, HI, USA},
+    isbn = {979-8-4007-0331-7},
+    publisher = {ACM, New York, USA},
+    author = {Ilira Troshani and Thiago Gouvea and Daniel Sonntag},
+    url = {https://sustainingscalablesustainability.wordpress.com/wp-content/uploads/2024/04/wild-data-treasures.pdf https://www.dfki.de/fileadmin/user_upload/import/15069_wild-data-treasures.pdf}
 }
 
-@inproceedings{pub14309,
-    author = {Nguyen, Ho Minh Duy and Nguyen, Hoang and Diep, Nghiem T. and Pham, Tan and Cao, Tri and Nguyen, Binh T. and Swoboda, Paul and Ho, Nhat and Albarqouni, Shadi and Xie, Pengtao and Sonntag, Daniel and Niepert, Mathias},
-    title = {LVM-Med: Learning Large-Scale Self-Supervised Vision Models for Medical Imaging via Second-order Graph Matching},
-    booktitle = {The Thirty-Seventh Annual Conference on Neural Information Processing Systems (NeurIPS 2023). Neural Information Processing Systems (NeurIPS), December 10-16, United States},
-    year = {2023},
-    month = {12},
-    publisher = {Advances in Neural Information Processing Systems}
+@inproceedings{pub15118,
+    abstract = {Data collection and annotation are time-consuming, resource-intensive processes that often require domain expertise. Existing data collections such as animal sound collections provide valuable data sources, but their utilization is often hindered by the lack of fine-grained labels. In this study, we examine the use of existing weakly supervised methods 
+to extract fine-grained information from existing weakly-annotated data accumulated over time and alleviate the need for collection and annotation of fresh data. We employ TALNet, a Convolutional Recurrent Neural Network (CRNN) model and train it on 60-second sound recordings labeled for the presence of 42 different anuran species and compare it to other models such as BirdNet, a model for detection of bird vocalisation. We conduct the evaluation on 1-second segments, enabling precise sound event localization.
+Furthermore, we investigate the impact of varying the length of the training input and explore different pooling functions' effects on the model's performance on AnuraSet. Finally, we integrate it in an interactive user interface that facilitates training and annotation. Our findings demonstrate the effectiveness of TALNet and BirdNet in harnessing weakly annotated sound collections for wildlife monitoring. Our method not only improves the extraction of information from coarse labels but also simplifies the process of annotating new data for experts.},
+    year = {2024},
+    title = {Leveraging Weakly Supervised and Multiple Instance Learning for Multi-label Classification of Passive Acoustic Monitoring Data},
+    booktitle = {KI 2024: Advances in Artificial Intelligence. German Conference on Artificial Intelligence (KI-2024), 47th German Conference on AI, Würzburg, Germany, September 25–27, 2023, located at 47th German Conference on AI, September 25-27, Würzburg, Germany},
+    publisher = {Springer},
+    author = {Ilira Troshani and Thiago Gouvea and Daniel Sonntag},
+    url = {https://www.dfki.de/fileadmin/user_upload/import/15118__KI24__WSL4bioacoustics-3.pdf}
 }
 
-@inproceedings{pub13402,
-author = {Liang, Siting and Hartmann, Mareike and Sonntag, Daniel},
-title = {Cross-domain German Medical Named Entity Recognition using a Pre-Trained Language Model and Unified Medical Semantic Types},
-booktitle = {Association for Computational Linguistics. Clinical Natural Language Processing Workshop (ClinicalNLP-2023), July 9-14, Toronto, Canada},
-year = {2023},
-publisher = {ACL}
+@misc{pub15145,
+    abstract = {Large language models (LLMs) and large multimodal models (LMMs) have significantly impacted the AI community, industry, and various economic sectors. In journalism, integrating AI poses unique challenges and opportunities, particularly in enhancing the quality and efficiency of news reporting. This study explores how LLMs and LMMs can assist journalistic practice by generating contextualised captions for images accompanying news articles. We conducted experiments using the GoodNews dataset to evaluate the ability of LMMs (BLIP-2, GPT-4v, or LLaVA) to incorporate one of two types of context: entire news articles, or extracted named entities. In addition, we compared their performance to a two-stage pipeline composed of a captioning model (BLIP-2, OFA, or ViT-GPT2) with post-hoc contextualisation with LLMs (GPT-4 or LLaMA). We assess a diversity of models, and we find that while the choice of contextualisation model is a significant factor for the two-stage pipelines, this is not the case in the LMMs, where smaller, open-source models perform well compared to proprietary, GPT-powered ones. Additionally, we found that controlling the amount of provided context enhances performance. These results highlight the limitations of a fully automated approach and underscore the necessity for an interactive, human-in-the-loop strategy.},
+    month = {8},
+    year = {2024},
+    title = {Enhancing Journalism with AI: A Study of Contextualized Image Captioning for News Articles using LLMs and LMMs},
+    howpublished = {Trustworthy Interactive Decision-Making with Foundation Models Workshop @ IJCAI 2024},
+    author = {Aliki Anagnostopoulou and Thiago Gouvea and Daniel Sonntag},
+    keywords = {contextualised image captioning, foundation models, large language models, large multimodal models, AI in journalism},
+    url = {https://openreview.net/forum?id=L6OosgRO0K https://www.dfki.de/fileadmin/user_upload/import/15145_Enhancing_Journalism_with_AI.pdf}
 }
 
-@inproceedings{pub13395,
-author = {Kath, Hannes Berthold and Gouvea, Thiago and Sonntag, Daniel},
-title = {A Human-in-the-Loop Tool for Annotating Passive Acoustic Monitoring Datasets},
-booktitle = {Proceedings of the Thirty-Second International Joint Conference on Artificial Intelligence. International Joint Conference on Artificial Intelligence (IJCAI-2023), located at IJCAI, August 19-25, Macao, Macao. International Joint Conference on Artificial Intelligence (IJCAI), befindet sich IJCAI, August 19-25, Macao, China},
-year = {2023},
-publisher = {International Joint Conferences on Artificial Intelligence}
+@inproceedings{pub15147,
+    series = {GoodIT '24},
+    abstract = {For dialogues in which teachers explain difficult concepts to students, didactics research often debates which teaching strategies lead to the best learning outcome. In this paper, we test if LLMs can reliably annotate such explanation dialogues, s.t. they could assist in lesson planning and tutoring systems. We first create a new annotation scheme of teaching acts aligned with contemporary teaching models and re-annotate a dataset of conversational explanations about communicating scientific understanding in teacher-student settings on five levels of the explainee’s expertise: ReWIRED contains three layers of acts (Teaching, Explanation, Dialogue) with increased granularity (span-level). We then evaluate language models on the labeling of such acts and find that the broad range and structure of the proposed labels is hard to model for LLMs such as GPT-3.5/-4 via prompting, but a fine-tuned BERT can perform both act classification and span labeling well. Finally, we operationalize a series of quality metrics for instructional explanations in the form of a test suite, finding that they match the five expertise levels well.},
+    month = {9},
+    year = {2024},
+    title = {Towards Modeling and Evaluating Instructional Explanations in Teacher-Student Dialogues},
+    booktitle = {Proceedings of the 2024 International Conference on Information Technology for Social Good. ACM International Conference on Information Technology for Social Good (GoodIT-2024), September 4-6, Bremen, Germany},
+    isbn = {9798400710940},
+    publisher = {Association for Computing Machinery},
+    doi = {https://doi.org/10.1145/3677525.3678665},
+    author = {Nils Feldhus and Aliki Anagnostopoulou and Qianli Wang and Milad Alshomary and Henning Wachsmuth and Daniel Sonntag and Sebastian Möller},
+    keywords = {Dialogue, Discourse Analysis, Evaluation, Explanations},
+    url = {https://doi.org/10.1145/3677525.3678665}
 }
 
-@inproceedings{pub13356,
-author = {Gouvea, Thiago and Kath, Hannes Berthold and Troshani, Ilira and Lüers, Bengt and Serafini, Patrícia P. and Campos, Ivan B. and Afonso, André S. and Leandro, Sérgio M. F. M. and Swanepoel, Lourens and Theron, Nicholas and Swemmer, Anthony M. and Sonntag, Daniel},
-title = {Interactive Machine Learning Solutions for Acoustic Monitoring of Animal Wildlife in Biosphere Reserves},
-booktitle = {Proceedings of the Thirty-Second International Joint Conference on Artificial Intelligence. International Joint Conference on Artificial Intelligence (IJCAI-2023), befindet sich IJCAI, August 19-25, Macao, Macao SAR of China},
-year = {2023},
-publisher = {International Joint Conferences on Artificial Intelligence}
+@article{pub15156,
+    abstract = {Passive Acoustic Monitoring (PAM) has emerged as a pivotal technology for wildlife monitoring, generating vast amounts of acoustic data. However, the successful application of machine learning methods for sound event detection in PAM datasets heavily relies on the availability of annotated data, which can be laborious to acquire. In this study, we investigate the effectiveness of transfer learning and active learning techniques to address the data annotation challenge in PAM. Transfer learning allows us to use pre-trained models from related tasks or datasets to bootstrap the learning process for sound event detection. Furthermore, active learning promises strategic selection of the most informative samples for annotation, effectively reducing the annotation cost and improving model performance. We evaluate an approach that combines transfer learning and active learning to efficiently exploit existing annotated data and optimize the annotation process for PAM datasets. Our transfer learning observations show that embeddings produced by BirdNet, a model trained on high signal-to-noise recordings of bird vocalisations, can be effectively used for predicting anurans in PAM data: a linear classifier constructed using these embeddings outperforms the benchmark by 21.7%. Our results indicate that active learning is superior to random sampling, although no clear winner emerges among the strategies employed. The proposed method holds promise for facilitating broader adoption of machine learning techniques in PAM and advancing our understanding of biodiversity dynamics through acoustic data analysis.},
+    year = {2024},
+    title = {Leveraging transfer learning and active learning for data annotation in passive acoustic monitoring of wildlife},
+    journal = {Ecological Informatics},
+    volume = {82},
+    pages = {1-9},
+    publisher = {Elsevier},
+    doi = {https://doi.org/10.1016/j.ecoinf.2024.102710},
+    author = {Hannes Kath and Patricia P. Serafini and Ivan B. Campos and Thiago Gouvea and Daniel Sonntag},
+    keywords = {Passive acoustic monitoring, Active learning, Transfer learning, BirdNet},
+    url = {https://www.sciencedirect.com/science/article/pii/S1574954124002528 https://www.dfki.de/fileadmin/user_upload/import/15156_Kath_et_al_2024_Leveraging_transfer_learning_and_active_learning_for_data_annotation_in_passive.pdf}
 }
 
-@inproceedings{pub13420,
-author = {Anagnostopoulou, Aliki and Hartmann, Mareike and Sonntag, Daniel},
-title = {Towards Adaptable and Interactive Image Captioning with Data Augmentation and Episodic Memory},
-booktitle = {Proceedings of The Fourth Workshop on Simple and Efficient Natural Language Processing (SustaiNLP). ACL Workshop on Simple and Efficient Natural Language Processing (SustaiNLP-2023), befindet sich Annual Meeting of the Association for Computational Linguistics 2023, July 13-13, Toronto, Canada},
-year = {2023},
-month = {7},
-publisher = {Association for Computational Linguistics}
+@inproceedings{pub15162,
+    abstract = {The complex system of life on Earth, biodiversity, provides the essential resources for human survival. However, humanity is the primary driver of species extinction, accelerating the extinction rate to 100-1000 times higher than pre-industrial times. To combat this alarming trend, detailed information on biodiversity is needed, making effective monitoring technologies essential. Passive Acoustic Monitoring (PAM) has emerged as a key technology for scalable wildlife monitoring. While PAM is effectively used to record vast amounts of acoustic data, the automatic identification of species remains an unsolved challenge. This elaboration formally describes the problem of identifying as many species as possible in an unlabelled PAM dataset while examining the fewest samples. A pilot study is conducted to investigate the potential of four approaches combining transfer learning with adapted uncertainty or diversity active learning sampling strategies. The findings of this study indicate that uncertainty-based sampling strategies yield superior performance to random sampling. In contrast, the diversity-based strategies used demonstrate inferior performance, with improvements observed when fine-tuning the embedding space using already labelled data. This study lays the groundwork for future research aimed at iteratively fine-tuning the embedding space in combination with uncertainty and diversity methods.},
+    year = {2024},
+    title = {Active and Transfer Learning for Efficient Identification of Species in Multi-Label Bioacoustic Datasets},
+    booktitle = {Proceedings of the 2024 International Conference on Information Technology for Social Good. ACM International Conference on Information Technology for Social Good (GoodIT-2024), September 4-6, Bremen, Germany},
+    pages = {22-25},
+    isbn = {9798400710940},
+    publisher = {ACM},
+    doi = {https://doi.org/10.1145/3677525.3678635},
+    author = {Hannes Kath and Thiago Gouvea and Daniel Sonntag},
+    url = {https://dl.acm.org/doi/10.1145/3677525.3678635}
 }
 
-@inproceedings{13200,
-title = {A User Interface for Explaining Machine Learning Model Explanations},
-author = {Md Abdul Kadir and Abdulrahman Mohamed Selim and Michael Barz and Daniel Sonntag},
-url = {https://doi.org/10.1145/3581754.3584131},
-doi = {10.1145/3581754.3584131},
-isbn = {9798400701078},
-year = {2023},
-date = {2023-01-01},
-booktitle = {Companion Proceedings of the 28th International Conference on Intelligent User Interfaces},
-pages = {59–63},
-publisher = {Association for Computing Machinery},
-address = {Sydney, NSW, Australia},
-series = {IUI '23 Companion},
-abstract = {Explainable Artificial Intelligence (XAI) is an emerging subdiscipline of Machine Learning (ML) and human-computer interaction. Discriminative models need to be understood. An explanation of such ML models is vital when an AI system makes decisions that have significant consequences, such as in healthcare or finance. By providing an input-specific explanation, users can gain confidence in an AI system’s decisions and be more willing to trust and rely on it. One problem is that interpreting example-based explanations for discriminative models, such as saliency maps, can be difficult because it is not always clear how the highlighted features contribute to the model’s overall prediction or decisions. Moreover, saliency maps, which are state-of-the-art visual explanation methods, do not provide concrete information on the influence of particular features. We propose an interactive visualisation tool called EMILE-UI that allows users to evaluate the provided explanations of an image-based classification task, specifically those provided by saliency maps. This tool allows users to evaluate the accuracy of a saliency map by reflecting the true attention or focus of the corresponding model. It visualises the relationship between the ML model and its explanation of input images, making it easier to interpret saliency maps and understand how the ML model actually predicts. Our tool supports a wide range of deep learning image classification models and image data as inputs.},
-keywords = {},
-pubstate = {published},
-tppubtype = {inproceedings}
+@inproceedings{pub15196,
+    abstract = {This paper explores the integration of graph knowledge from linguistic ontologies into multilingual Large Language Models (LLMs) using adapters to improve performance for low-resource languages (LRLs) in sentiment analysis (SA) and named entity recognition (NER). Building upon successful parameter-efficient fine-tuning techniques, such as K-ADAPTER and MAD-X, we propose a similar approach for incorporating knowledge from multilingual graphs, connecting concepts in various languages with each other through linguistic relationships, into multilingual LLMs for LRLs. Specifically, we focus on eight LRLs --- Maltese, Bulgarian, Indonesian, Nepali, Javanese, Uyghur, Tibetan, and Sinhala --- and employ language-specific adapters fine-tuned on data extracted from the language-specific section of ConceptNet, aiming to enable knowledge transfer across the languages covered by the knowledge graph. We compare various fine-tuning objectives, including standard Masked Language Modeling (MLM), MLM with full-word masking, and MLM with targeted masking, to analyze their effectiveness in learning and integrating the extracted graph data. Through empirical evaluation on language-specific tasks, we assess how structured graph knowledge affects the performance of multilingual LLMs for LRLs in SA and NER, providing insights into the potential benefits of adapting language models for low-resource scenarios.},
+    year = {2024},
+    title = {Adapting Multilingual LLMs to Low-Resource Languages with Knowledge Graphs via Adapters},
+    booktitle = {Proceedings of the 1st Workshop on Knowledge Graphs and Large Language Models (KaLLM 2024). Workshop on Knowledge Graphs and Large Language Models (KaLLM-2024), August 15, Bangkok, Thailand},
+    editor = {Russa Biswas and Lucie-Aimée Kaffee and Oshin Agarwal and Pasquale Minervini and Sameer Singh and Gerard de Melo},
+    pages = {63-74},
+    publisher = {Association for Computational Linguistics},
+    author = {Daniil Gurgurov and Mareike Hartmann and Simon Ostermann},
+    url = {https://aclanthology.org/2024.kallm-1.7 https://www.dfki.de/fileadmin/user_upload/import/15196_2024.kallm-1.7.pdf}
 }
 
-@inproceedings{13201,
-title = {IMETA: An Interactive Mobile Eye Tracking Annotation Method for Semi-Automatic Fixation-to-AOI Mapping},
-author = {László Kopácsi and Michael Barz and Omair Shahzad Bhatti and Daniel Sonntag},
-url = {https://www.dfki.de/fileadmin/user_upload/import/13201_3581754.3584125.pdf},
-doi = {https://doi.org/10.1145/3581754.3584125},
-year = {2023},
-date = {2023-01-01},
-booktitle = {Companion Proceedings of the 28th International Conference on Intelligent User Interfaces},
-pages = {33-36},
-publisher = {Association for Computing Machinery},
-abstract = {Mobile eye tracking studies involve analyzing areas of interest (AOIs) and visual attention to these AOIs to understand how people process visual information. However, accurately annotating the data collected for user studies can be a challenging and time-consuming task. Current approaches for automatically or semi-automatically analyzing head-mounted eye tracking data in mobile eye tracking studies have limitations, including a lack of annotation flexibility or the inability to adapt to specific target domains. To address this problem, we present IMETA, an architecture for semi-automatic fixation-to-AOI mapping. When an annotator assigns an AOI label to a sequence of frames based on the respective fixation points, an interactive video object segmentation method is used to estimate the mask proposal of the AOI. Then, we use the 3D reconstruction of the visual scene created from the eye tracking video to map these AOI masks to 3D. The resulting 3D segmentation of the AOI can be used to suggest labels for the rest of the video, with the suggestions becoming increasingly accurate as more samples are provided by an annotator using interactive machine learning (IML). IMETA has the potential to reduce the annotation workload and speed up the evaluation of mobile eye tracking studies.},
-keywords = {},
-pubstate = {published},
-tppubtype = {inproceedings}
+@article{pub15260,
+    abstract = {Active learning (AL) algorithms are increasingly being used to train models with limited data for annotation tasks. However, the selection of data for AL is a complex issue due to the restricted information on unseen data. To tackle this problem, a technique we refer to as Partial Image Active Annotation (PIAA) employs the edge information of unseen images as prior knowledge to gauge uncertainty. This uncertainty is determined by examining the divergence and entropy in model predictions across edges. The resulting measure is then applied to choose superpixels from input images for active annotation. We demonstrate the effectiveness of PIAA in multi-class Optical Coherence Tomography (OCT) segmentation tasks, attaining a Dice score comparable to state-of-the-art OCT segmentation algorithms trained with extensive annotated data. Concurrently, we successfully reduce annotation label costs to 12%, 2.3%, and 3%, respectively, across three publicly accessible datasets (Duke, AROI, and UMN).},
+    month = {6},
+    year = {2024},
+    title = {Partial Image Active Annotation (PIAA): An Efficient Active Learning Technique Using Edge Information in Limited Data Scenarios},
+    journal = {KI - Künstliche Intelligenz, German Journal on Artificial Intelligence - Organ des Fachbereiches "Künstliche Intelligenz" der Gesellschaft für Informatik e.V. (KI)},
+    volume = {-},
+    pages = {1-12},
+    publisher = {Springer},
+    doi = {https://doi.org/10.1007/s13218-024-00849-6},
+    author = {Md Abdul Kadir and Hasan Md Tusfiqur Alam and Devansh Srivastav and Hans-Jürgen Profitlich and Daniel Sonntag},
+    url = {https://link.springer.com/article/10.1007/s13218-024-00849-6}
 }
 
-@inproceedings{13196,
-title = {Interactive Fixation-to-AOI Mapping for Mobile Eye Tracking Data Based on Few-Shot Image Classification},
-author = {Michael Barz and Omair Shahzad Bhatti and Hasan Md Tusfiqur Alam and Ho Minh Duy Nguyen and Daniel Sonntag},
-url = {https://www.dfki.de/fileadmin/user_upload/import/13196_3581754.3584179.pdf},
-doi = {https://doi.org/10.1145/3581754.3584179},
-year = {2023},
-date = {2023-01-01},
-booktitle = {Companion Proceedings of the 28th International Conference on Intelligent User Interfaces},
-pages = {175-178},
-publisher = {Association for Computing Machinery},
-abstract = {Mobile eye tracking is an important tool in psychology and human-centred interaction design for understanding how people process visual scenes and user interfaces. However, analysing recordings from mobile eye trackers, which typically include an egocentric video of the scene and a gaze signal, is a time-consuming and largely manual process. To address this challenge, we propose a web-based annotation tool that leverages few-shot image classification and interactive machine learning (IML) to accelerate the annotation process. The tool allows users to efficiently map fixations to areas of interest (AOI) in a video-editing-style interface. It includes an IML component that generates suggestions and learns from user feedback using a few-shot image classification model initialised with a small number of images per AOI. Our goal is to improve the efficiency and accuracy of fixation-to-AOI mapping in mobile eye tracking.},
-keywords = {},
-pubstate = {published},
-tppubtype = {inproceedings}
+@misc{pub15261,
+    abstract = {Explainable Artificial Intelligence (XAI) strategies play a crucial part in increasing the understanding and trustworthiness of neural networks. Nonetheless, these techniques could potentially generate misleading explanations. Blinding attacks can drastically alter a machine learning algorithm's prediction and explanation, providing misleading information by adding visually unnoticeable artifacts into the input, while maintaining the model's accuracy. It poses a serious challenge in ensuring the reliability of XAI methods. To ensure the reliability of XAI methods poses a real challenge, we leverage statistical analysis to highlight the changes in CNN weights within a CNN following blinding attacks. We introduce a method specifically designed to limit the effectiveness of such attacks during the evaluation phase, avoiding the need for extra training. The method we suggest defences against most modern explanation-aware adversarial attacks, achieving an approximate decrease of ~99\% in the Attack Success Rate (ASR) and a ~91\% reduction in the Mean Square Error (MSE) between the original explanation and the defended (post-attack) explanation across three unique types of attacks.},
+    month = {3},
+    year = {2024},
+    title = {Revealing Vulnerabilities of Neural Networks in Parameter Learning and Defense Against Explanation-Aware Backdoors},
+    author = {Md Abdul Kadir and Gowthamkrishna Addluri and Daniel Sonntag},
+    status_notes = {preprint},
+    url = {https://arxiv.org/abs/2403.16569 https://www.dfki.de/fileadmin/user_upload/import/15261_2403.16569v1.pdf}
 }
 
-
-@article{13195,
-title = {Digital ink and differentiated subjective ratings for cognitive load measurement in middle childhood},
-author = {Kristin Altmeyer and Michael Barz and Luisa Lauer and Markus Peschel and Daniel Sonntag and Roland Brünken and Sarah Malone},
-url = {https://bpspsychub.onlinelibrary.wiley.com/doi/abs/10.1111/bjep.12595},
-year = {2023},
-date = {2023-01-01},
-journal = {British Journal of Educational Psychology},
-volume = {n/a},
-pages = {18},
-publisher = {John Wiley & Sons, Ltd},
-abstract = {Abstract Background New methods are constantly being developed to adapt cognitive load measurement to different contexts. However, research on middle childhood students' cognitive load measurement is rare. Research indicates that the three cognitive load dimensions (intrinsic, extraneous, and germane) can be measured well in adults and teenagers using differentiated subjective rating instruments. Moreover, digital ink recorded by smartpens could serve as an indicator for cognitive load in adults. Aims With the present research, we aimed at investigating the relation between subjective cognitive load ratings, velocity and pressure measures recorded with a smartpen, and performance in standardized sketching tasks in middle childhood students. Sample Thirty-six children (age 7–12) participated at the university's laboratory. Methods The children performed two standardized sketching tasks, each in two versions. The induced intrinsic cognitive load or the extraneous cognitive load was varied between the versions. Digital ink was recorded while the children drew with a smartpen on real paper and after each task, they were asked to report their perceived intrinsic and extraneous cognitive load using a newly developed 5-item scale. Results Results indicated that cognitive load ratings as well as velocity and pressure measures were substantially related to the induced cognitive load and to performance in both sketching tasks. However, cognitive load ratings and smartpen measures were not substantially related. Conclusions Both subjective rating and digital ink hold potential for cognitive load and performance measurement. However, it is questionable whether they measure the exact same constructs.},
-keywords = {},
-pubstate = {published},
-tppubtype = {article}
+@inproceedings{pub15331,
+    abstract = {Paper and digital forms are widely used to collect user information across multiple domains, such as research, healthcare, and education. However, both types still lack application and follow-up interpretation: Paper forms need to be digitised meticulously to be analyzed or shared with team members efficiently; in comparison, digital forms cannot convey handwriting and might require technical literacy. We present the FormTwin data collection tool—an alternative to online forms, which allows for the efficient reuse of existent paper forms while providing the convenience of digital forms. FormTwin can digitise a wide range of forms with the integrated form annotation application. Then, it combines two input channels: A stylus on a tablet and a digital smart pen on plain paper, which duplicates the input on a mobile application in real-time. We aim to improve the efficiency and accessibility of data collection for practitioners with a modular system that combines both the digital accessibility of digital forms with keeping the needed technical literacy low and retaining the quality of hand-drawn sketches.},
+    month = {7},
+    year = {2024},
+    title = {FormTwin: A Framework for Pen-based Data Collection},
+    booktitle = {Adjunct Proceedings of the 32nd ACM Conference on User Modeling, Adaptation and Personalization. International Conference on User Modeling, Adaptation, and Personalization (UMAP-2024), July 1-4, Cagliari, Italy},
+    pages = {132-135},
+    isbn = {979-8-4007-0466-6/24/07},
+    address = {1601 Broadway, 10th Floor
+New York, NY 10019-7434},
+    publisher = {ACM Digital Library},
+    doi = {https://doi.org/10.1145/3631700.3664875},
+    author = {Konstantin Kuznetsov and Sara-Jane Bittner and Abdulrahman Mohamed Selim and Michael Barz and Daniel Sonntag},
+    keywords = {Digital Pen, Digital Forms, Data Collection Methods, Research Tools, Intelligent User Interfaces},
+    organization = {Association for Computing Machinery (ACM)},
+    url = {https://doi.org/10.1145/3631700.3664875 https://www.dfki.de/fileadmin/user_upload/import/15331_3631700.3664875.pdf}
 }
 
-@inproceedings{pub12923,
-    author = {Nguyen, Ho Minh Duy and Nguyen, Hoang and Truong, Mai T. N. and Cao, Tri and Nguyen, Binh T. and Ho, Nhat and Swoboda, Paul and Albarqouni, Shadiand Xie, Pengtao and Sonntag, Daniel},
-    title = {Joint Self-Supervised Image-Volume Representation Learning with Intra-Inter Contrastive Clustering},
-    booktitle = {Thirty-Seventh AAAI Conference on Artificial Intelligence. AAAI Conference on Artificial Intelligence (AAAI-2023)},
-    year = {2023},
-    month = {2},
-    publisher = {AAAI Press}
+@techreport{pub15382,
+    series = {DFKI Technical Report},
+    abstract = {This DFKI technical report presents the anatomy of the No-IDLE meets ChatGPT prototype system (funded by the German Federal
+Ministry of Education and Research) that provides not only basic and fundamental research in interactive machine learning, but
+also reveals deeper insights into how to leverage the opportunities arising from large language models and technologies for the
+No-IDLE project. No-IDLE’s goals and scientific challenges centre around the desire to increase the reach of interactive deep learning
+solutions for non-experts in machine learning. No-IDLE aims to enhance the interaction between humans and machines for the
+purpose of updating deep learning models, integrating cutting-edge human-computer interaction techniques and advanced deep
+learning approaches. Considering the recent advances in LLMs and their multimodal capabilities, the overall objective of "No-IDLE
+meets ChatGPT" should be well motivated. One of the key innovations described in this technical report is a methodology including
+benchmark studies for interactive machine learning combined with LLMs which will become central when we start interacting with
+semi-intelligent machines based on optimisation methods like automatic prompt engineering or natural language inference. Our main
+research question is how ChatGPT and other variants can help improve the accuracy of (semi-) automatic subtasks in image retrieval,
+captioning, and person/scene recognition.},
+    year = {2024},
+    title = {The Interactive Deep Learning Enterprise (No-IDLE) meets ChatGPT},
+    volume = {-},
+    institution = {German Research Center for AI},
+    author = {Daniel Sonntag and Thiago Gouvea and Michael Barz and Aliki Anagnostopoulou and Siting Liang and Sara-Jane Bittner and Franziska Scheurer},
+    url = {https://www.dfki.de/fileadmin/user_upload/import/15382_No_IDLE_meets_ChatGPT_Technical_Report.pdf}
+}
+
+@inproceedings{pub15402,
+    series = {ICMI Companion '24},
+    abstract = {The pervasive integration of artificial intelligence (AI) into daily life has led to a growing interest in AI agents that can learn continuously. Interactive Machine Learning (IML) has emerged as a promising approach to meet this need, essentially involving human experts in the model training process, often through iterative user feedback. However, repeated feedback requests can lead to frustration and reduced trust in the system. Hence, there is increasing interest in refining how these systems interact with users to ensure efficiency without compromising user experience. Our research investigates the potential of eye tracking data as an implicit feedback mechanism to detect user disagreement with AI-generated captions in image captioning systems. We conducted a study with 30 participants using a simulated captioning interface and gathered their eye movement data as they assessed caption accuracy. The goal of the study was to determine whether eye tracking data can predict user agreement or disagreement effectively, thereby strengthening IML frameworks. Our findings reveal that, while eye tracking shows promise as a valuable feedback source, ensuring consistent and reliable model performance across diverse users remains a challenge.},
+    year = {2024},
+    title = {Detecting when Users Disagree with Generated Captions},
+    booktitle = {Companion Proceedings of the 26th International Conference on Multimodal Interaction. ACM International Conference on Multimodal Interaction (ICMI-2024), November 4, San José, Costa Rica},
+    note = {HumanEYEze Workshop},
+    pages = {195-203},
+    isbn = {9798400704635},
+    publisher = {Association for Computing Machinery, New York, NY, USA},
+    doi = {https://doi.org/10.1145/3686215.3688382},
+    author = {Omair Shahzad Bhatti and Harshinee Sriram and Abdulrahman Mohamed Selim and Cristina Conati and Michael Barz and Daniel Sonntag},
+    keywords = {disagreement detection, emotion detection, eye tracking, gaze, interactive machine learning, user disagreement},
+    url = {https://doi.org/10.1145/3686215.3688382 https://www.dfki.de/fileadmin/user_upload/import/15402_3686215.3688382.pdf}
+}
+
+@inproceedings{pub15403,
+    series = {ICMI '24},
+    abstract = {The HumanEYEze 2024 workshop aims to explore the role of eye tracking in developing human-centered multimodal AI systems. Over the past two decades, eye tracking has evolved from a diagnostic tool to an important input modality for real-time interactive systems, driven by advancements in hardware that have improved its affordability, availability, and performance. Initially used in specialized applications, eye tracking now significantly impacts research on gaze-based multimodal interaction. Recently, eye-based user and context modeling has emerged, utilizing eye movements to provide rich insights into user behavior and interaction contexts. The workshop aims to bring together researchers from eye tracking, multimodal human-computer interaction, and AI. It aims to enhance understanding of integrating eye tracking into multimodal human-centered computing. The expected outcomes include fostering collaborations and promoting knowledge exchange.},
+    year = {2024},
+    title = {HumanEYEze 2024: Workshop on Eye Tracking for Multimodal Human-Centric Computing},
+    booktitle = {Proceedings of the 26th International Conference on Multimodal Interaction. ACM International Conference on Multimodal Interaction (ICMI-2024), November 4-8, San José, Costa Rica},
+    isbn = {9798400704628},
+    publisher = {Association for Computing Machinery, New York, NY, USA},
+    doi = {https://doi.org/10.1145/3678957.3688384},
+    author = {Michael Barz and Roman Bednarik and Andreas Bulling and Cristina Conati and Daniel Sonntag},
+    keywords = {Eye Tracking, Gaze, Human-centered AI, Human-centric Computing, Multimodal Interaction, User Modeling, Workshop},
+    url = {https://doi.org/10.1145/3678957.3688384 https://www.dfki.de/fileadmin/user_upload/import/15403_humaneyeze.pdf}
+}
+
+@inproceedings{pub15407,
+    series = {ICMI '24},
+    abstract = {A scanpath is an important concept in eye tracking that represents a person’s eye movements in a graph-like structure. Passive gaze-based interfaces, in which users do not consciously interact using their eyes, typically interpret users’ scanpaths to enable adaptive and personalised interaction. Despite the benefits of graph neural networks (GNNs) in graph processing, this technology has not been considered for that purpose. An example application is perceived relevance estimation, which still suffers from low classification performance. In this work, we investigate how and whether GNNs can be used to analyse scanpaths for readers’ perceived relevance estimation using the gazeRE dataset. This dataset contains eye tracking data from 24 participants, who rated the relevance of 12 short and 12 long documents in relation to a given query. The relevance was assigned either to an entire short document or to each paragraph within a long document, which allowed us to investigate two different GNN tasks. For comparison, we reproduced the gazeRE baseline using Random Forest and Support Vector classifiers, and an additional Convolutional Neural Network (CNN) from the literature. All models were evaluated using leave-users-out cross-validation. For short documents, the GNNs surpassed the baseline methods, with certain experiments showing an absolute balanced accuracy improvement of 7.6% and 14.3% over the CNN and gazeRE baselines, respectively. However, similar improvements were not observed in long documents. This work investigates and discusses the future potential of using GNNs as a scanpath analysis method for passive gaze-based applications, such as implicit relevance estimation.},
+    month = {11},
+    year = {2024},
+    title = {Perceived Text Relevance Estimation Using Scanpaths and GNNs},
+    booktitle = {Proceedings of the 26th International Conference on Multimodal Interaction. ACM International Conference on Multimodal Interaction (ICMI-2024), November 4-8, San Jose, Costa Rica},
+    pages = {418-427},
+    isbn = {9798400704628},
+    publisher = {Association for Computing Machinery, New York, NY, USA},
+    doi = {https://doi.org/10.1145/3678957.3685736},
+    author = {Abdulrahman Mohamed Selim and Omair Shahzad Bhatti and Michael Barz and Daniel Sonntag},
+    keywords = {Eye Tracking, GNN, Passive Gaze-based Application, Scanpath},
+    url = {https://doi.org/10.1145/3678957.3685736 https://www.dfki.de/fileadmin/user_upload/import/15407_3678957.3685736.pdf}
+}
+
+@inproceedings{pub15412,
+    abstract = {With the integration of eye tracking technologies in Augmented Reality (AR) and Virtual Reality (VR) headsets, gaze-based interactions have opened up new possibilities for user interface design, including menu navigation. Prior research in gaze-based menu navigation in VR has predominantly focused on pie menus, yet recent studies indicate a user preference for list layouts. However, the comparison of gaze-based interactions on list menus is lacking in the literature. This work aims to fill this gap by exploring the viability of list menus for multi-level gaze-based menu navigation in VR and evaluating the efficiency of various gaze-based interactions, such as dwelling and border-crossing, against traditional controller navigation and multi-modal interaction using gaze and button press.},
+    number = {40},
+    month = {10},
+    year = {2024},
+    title = {Exploring Gaze-Based Menu Navigation in Virtual Environments},
+    booktitle = {Proceedings of the 2024 ACM Symposium on Spatial User Interaction (SUI '24). ACM Symposium on Spatial User Interaction (SUI-2024), October 7-8, Trier, Germany},
+    pages = {1-2},
+    isbn = {9798400710889},
+    publisher = {Association for Computing Machinery, New York, NY, USA},
+    doi = {https://doi.org/10.1145/3677386.3688887},
+    author = {László Kopácsi and Albert Klimenko and Michael Barz and Daniel Sonntag},
+    keywords = {Extended Reality (XR), Eye Tracking, Gaze-based Interaction, Menu Navigation},
+    url = {https://dl.acm.org/doi/10.1145/3677386.3688887 https://www.dfki.de/fileadmin/user_upload/import/15412_3677386.3688887.pdf}
+}
+
+@inproceedings{pub15413,
+    abstract = {The MASTER project introduces an open Extended Reality (XR) platform designed to enhance human-robot collaboration and train workers in robotics within manufacturing settings. It includes modules for creating safe workspaces, intuitive robot programming, and user-friendly human-robot interactions (HRI), including eye-tracking technologies. The development of the platform is supported by two open calls targeting technical SMEs and educational institutes to enhance and test its functionalities. By employing the learning-by-doing methodology and integrating effective teaching principles, the MASTER platform aims to provide a comprehensive learning environment, preparing students and professionals for the complexities of flexible and collaborative manufacturing settings.},
+    number = {67},
+    month = {10},
+    year = {2024},
+    title = {The MASTER XR Platform for Robotics Training in Manufacturing},
+    booktitle = {Proceedings of the 30th ACM Symposium on Virtual Reality Software and Technology (VRST '24). ACM Symposium on Virtual Reality Software and Technology (VRST-2024), October 9-11, Trier, Germany},
+    pages = {1-2},
+    isbn = {9798400705359},
+    publisher = {Association for Computing Machinery, New York, NY, USA},
+    doi = {https://doi.org/10.1145/3641825.3689514},
+    author = {László Kopácsi and Panagiotis Karagiannis and Sotiris Makris and Johan Kildal and Andoni Rivera-Pinto and Judit Ruiz de Munain and Jesús Rosel and Maria Madarieta and Nikolaos Tseregkounis and Konstantina Salagianni and Panagiotis Aivaliotis and Michael Barz and Daniel Sonntag},
+    keywords = {Extended Reality (XR), Eye Tracking, Human-Robot Collaboration, Industry 4.0, Manufacturing, Robotics, Worker Training},
+    url = {https://doi.org/10.1145/3641825.3689514 https://www.dfki.de/fileadmin/user_upload/import/15413_3641825.3689514.pdf}
+}
+
+@inproceedings{pub15414,
+    abstract = {Password entry is common authentication approach in Extended Reality (XR) applications for its simplicity and familiarity, but it faces challenges in public and dynamic environments due to its cumbersome nature and susceptibility to observation attacks. Manual password input can be disruptive and prone to theft through shoulder surfing or surveillance. While alternative knowledge-based approaches exist, they often require complex physical gestures and are impractical for frequent public use. We present GazeLock, an eye-tracking and lock pattern-based authentication method. This method aims to provide an easy-to-learn and efficient alternative by leveraging familiar lock patterns operated through gaze. It ensures resilience to external observation, as physical interaction is unnecessary and eyes are obscured by the headset. Its hands-free, discreet nature makes it suitable for secure public use. We demonstrate this method by simulating the unlocking of a smart lock via an XR headset, showcasing its potential applications and benefits in real-world scenarios.},
+    number = {94},
+    month = {10},
+    year = {2024},
+    title = {GazeLock: Gaze- and Lock Pattern-Based Authentication},
+    booktitle = {Proceedings of the 30th ACM Symposium on Virtual Reality Software and Technology (VRST '24). ACM Symposium on Virtual Reality Software and Technology (VRST-2024), October 9-11, Trier, Germany},
+    pages = {1-2},
+    isbn = {9798400705359},
+    publisher = {Association for Computing Machinery, New York, NY, USA},
+    doi = {https://doi.org/10.1145/3641825.3689520},
+    author = {László Kopácsi and Tobias Sebastian Schneider and Chiara Karr and Michael Barz and Daniel Sonntag},
+    keywords = {Authentication, Extended Reality (XR), Eye Tracking, Gaze-based Interaction},
+    url = {https://doi.org/10.1145/3641825.3689520 https://www.dfki.de/fileadmin/user_upload/import/15414_3641825.3689520.pdf}
+}
+
+@inproceedings{pub15416,
+    abstract = {Biodiversity loss is a major challenge for humanity, which has increased the rate of species extinction by a factor of 100-1000 compared to pre-industrial times.
+XPRIZE Rainforest is a competition focused on developing a pipeline for real-time biodiversity measurement: teams have 24 hours to collect data and another 48 hours to produce a list of species present in the data.
+Passive acoustic monitoring (PAM) is a scalable technology for data acquisition in wildlife monitoring.
+However, analyzing large PAM datasets poses a significant challenge. 
+This paper presents a tool used by the Brazilian team during the XPRIZE Rainforest finals.
+Using a combination of audio separation, weakly supervised learning, transfer learning, active learning, multiple-instance learning, and novel class detection, samples are carefully selected and presented to the user for annotation.},
+    year = {2024},
+    title = {Enhancing Biodiversity Monitoring: An Interactive Tool for Efficient Identification of Species in Large Bioacoustics Datasets},
+    booktitle = {ICMI Companion '24: Companion Proceedings of the 26th International Conference on Multimodal Interaction. ACM International Conference on Multimodal Interaction (ICMI-2024), 26th International Conference on Multimodal Interaction, November 4-8, Costa Rica},
+    pages = {91-93},
+    publisher = {Association for Computing Machinery},
+    doi = {https://doi.org/10.1145/3686215.3688374},
+    author = {Hannes Kath and Ilira Troshani and Bengt Lüers and Thiago Gouvea and Daniel Sonntag},
+    keywords = {passive acoustic monitoring, novel class detection, transfer learning, active learning},
+    url = {https://www.dfki.de/fileadmin/user_upload/import/15416_ICMI_Demo_Paper.pdf}
+}
+
+@techreport{pub15459,
+    series = {DFKI Research Reports, RR},
+    abstract = {The emergence of artificial intelligence (AI), particularly Deep Learning (DL), has marked a new era in the realm of ophthalmology, offering the transformative potential for the diagnosis and treatment of posterior segment eye diseases. This review explores the cutting-edge applications of DL across a range of ocular conditions, including diabetic retinopathy, glaucoma, age-related macular degeneration, and retinal vessel segmentation. We provide a comprehensive overview of foundational machine learning techniques and advanced DL architectures, such as convolutional neural networks, attention mechanisms, and transformer-based models, highlighting the evolving role of AI in enhancing diagnostic accuracy, optimizing treatment strategies, and improving overall patient care. Additionally, we present key challenges in integrating AI solutions into clinical practice, including ensuring data diversity, improving algorithm transparency, and effectively leveraging multimodal data. This review emphasizes AI's potential to improve disease diagnosis and enhance patient care while stressing the importance of collaborative efforts to overcome these barriers and fully harness AI's impact in advancing eye care.},
+    year = {2024},
+    title = {Deep Learning for Ophthalmology - The State-of-the-Art and Future Trends},
+    volume = {01},
+    institution = {DFKI},
+    author = {Ho Minh Duy Nguyen and Hasan Md Tusfiqur Alam and Tai Nguyen and Devansh Srivastav and Hans-Jürgen Profitlich and Ngan Le and Daniel Sonntag},
+    url = {https://www.dfki.de/fileadmin/user_upload/import/15459_2501.04073v1.pdf}
+}
+
+@inproceedings{pub15474,
+    abstract = {Brain-Computer Interface (BCI) systems represent an innovative approach to human-computer interaction, enabling users to control devices and interact with technology solely through brain activity. This study investigates the feasibility and potential of non-invasive EEG-based BCI for elevator control, addressing two primary research questions: 1) Can a person reliably control an elevator through a BCI system? and 2) What are the usability and user experience outcomes of such a system? We integrated a Muse headset with a remote-controllable elevator system using an iPhone as the interface over a local network. This setup allowed users to operate the elevator using blinking, jaw clenching, and mental focussing as triggers. Performance, accuracy, and user experience were evaluated through experiments involving 50 participants aged 12 to 60. Usability was measured with the System Usability Scale (SUS) questionnaire along with additional feedback questions. Key findings indicate that the system achieved an average SUS score of 80.3, reflecting excellent usability on the adjective rating scale. Moreover, 94% of participants successfully controlled the elevator, performing tasks such as activating and deactivating brain control, calling the elevator, and selecting floors. The user experience questionnaires reveal that most participants found the system easy to use, well-integrated, and perceived the introduction of brain-controlled elevators to positively impact accessibility and inclusivity in buildings.},
+    year = {2024},
+    title = {Mindful Mobility: EEG-Based Brain-Computer Interaction for Elevator Control Using Muse Headset},
+    booktitle = {Proceedings of the International Conference on Ubiquitous Computing and Ambient Intelligence (UCAmI 2024). International Conference on Ubiquitous Computing and Ambient Intelligence (UCAmI-2024), November 27-30, Ulster University, Belfast, United Kingdom},
+    publisher = {Springer},
+    author = {Devansh Srivastav and Thomas Kaltbach and Ahmer Akhtar Mughal and Nischal Giriyan and Moaz Bin Younus and Tobias Jungbluth and Jochen Britz and Jan Alexandersson and Maurice Rekrut},
+    url = {https://www.dfki.de/fileadmin/user_upload/import/15474_Mindful_Mobility.pdf}
+}
+
+@inproceedings{pub15617,
+    abstract = {A molecule's 2D representation consists of its atoms, their attributes, and the molecule's covalent bonds. A 3D (geometric) representation of a molecule is called a conformer and consists of its atom types and Cartesian coordinates. Every conformer has a potential energy, and the lower this energy, the more likely it occurs in nature. Most existing machine learning methods for molecular property prediction consider either 2D molecular graphs or 3D conformer structure representations in isolation. Inspired by recent work on using ensembles of conformers in conjunction with 2D graph representations, we propose E(3)-invariant molecular conformer aggregation networks. The method integrates a molecule's 2D representation with that of multiple of its conformers. Contrary to prior work, we propose a novel 2D-3D aggregation mechanism based on a differentiable solver for the Fused Gromov-Wasserstein Barycenter problem and the use of an efficient conformer generation method based on distance geometry. We show that the proposed aggregation mechanism is E(3) invariant and propose an efficient GPU implementation. Moreover, we demonstrate that the aggregation mechanism helps to significantly outperform state-of-the-art molecule property prediction methods on established datasets.},
+    year = {2024},
+    title = {Structure-Aware E(3)-Invariant Molecular Conformer Aggregation Networks},
+    booktitle = {Proceedings of the 41st International Conference on Machine Learning. International Conference on Machine Learning (ICML), July 21-27, Austria},
+    publisher = {JMLR.org},
+    author = {Ho Minh Duy Nguyen and Nina Lukashina and Tai Nguyen and An T. Le and TrungTin Nguyen and Nhat Ho and Jan Peters and Daniel Sonntag and Viktor Zaverkin and Mathias Niepert},
+    url = {https://arxiv.org/pdf/2402.01975}
+}
+
+@inproceedings{pub15618,
+    abstract = {Model compression has been an active research field to reduce the size and complexity of the model. In a recent noteworthy study, ToMe and its variants utilize the Bipartite Soft Matching (BSM) algorithm in which tokens representing patches in an image are split into two sets, and top k similar tokens from one set are merged. This approach not only utilizes pre-trained weights but also enhances speed and reduces memory usage. However, this algorithm has some drawbacks. The choice of a token-splitting strategy significantly influences the algorithm’s performance since tokens in one set can only perceive tokens in the other set, leading to mis-merging issues. Furthermore, although ToMe is effective in the initial layers, it becomes increasingly problematic in deeper layers as the number of tokens diminishes because of damaged informative tokens. To address these limitations, rather than relying on specific splitting strategies like BSM, we propose a new algorithm called PiToMe. Specifically, we prioritize the protection of informative tokens using an additional factor called the energy score. In experiments, PiToMe achieved up to a 50% memory reduction while exhibiting superior off-the-shelf performance on image classification ( keeping 1.71% average performance drop compared to 2.6% for ToMe) and image-text retrieval (1.35% average performance drop compared to 6.89% for ToMe) compared to ToMe and ToMe-based approaches dependent solely on token similarity.},
+    year = {2024},
+    title = {Energy Minimizing-based Token Merging for Accelerating Transformers},
+    booktitle = {International Conference on Learning Representations (ICLR), Practical ML for Low Resource Settings Workshop. International Conference on Learning Representations (ICLR), May 11-12},
+    publisher = {JMLR.org},
+    author = {Hoai-Chau Tran and Ho Minh Duy Nguyen and Manh-Duy Nguyen and Ngan Hoang Le and Binh T. Nguyen},
+    url = {https://www.dfki.de/fileadmin/user_upload/import/15618_84_Energy_Minimizing_based_tok.pdf}
+}
+
+@inproceedings{pub15619,
+    abstract = {Increasing the throughput of the Transformer architecture, a foundational component used in numerous state-of-the-art models for vision and language tasks
+(e.g., GPT, LLaVa), is an important problem in machine learning. One recent and effective strategy is to merge token representations within Transformer models,
+aiming to reduce computational and memory requirements while maintaining accuracy. Prior works have proposed algorithms based on Bipartite Soft Matching
+(BSM), which divides tokens into distinct sets and merges the top k similar tokens. However, these methods have significant drawbacks, such as sensitivity to token splitting strategies and damage to informative tokens in later layers. This paper presents a novel paradigm called PITOME, which prioritizes the preservation of informative tokens using an additional metric termed the energy score. This score identifies large clusters of similar tokens as high-energy, indicating potential candidates for merging, while smaller (unique and isolated) clusters are considered as low-energy and preserved. Experimental findings demonstrate that PITOME saved from 40-60% FLOPs of the base models while exhibiting superior off-the-shelf performance on image classification (0.5% average performance drop of ViT-MAEH compared to 2.6% as baselines), image-text retrieval (0.3% average performance drop of CLIP on Flickr30k compared to 4.5% as others), and analogously in visual questions answering with LLaVa-7B. Furthermore, PITOME is theoretically shown to preserve intrinsic spectral properties to the original token space under mild conditions.},
+    year = {2024},
+    title = {Accelerating Transformers with Spectrum-Preserving Token Merging},
+    booktitle = {The Thirty-Eighth Annual Conference on Neural Information Processing Systems. Neural Information Processing Systems (NeurIPS-2024), December 10-15, Canada},
+    publisher = {JMLR.org},
+    author = {Hoai-Chau Tran and Ho Minh Duy Nguyen and Duy M. Nguyen and TrungTin Nguyen and Ngan Le and Pengtao Xie and Daniel Sonntag and James Zou and Binh T. Nguyen and Mathias Niepert},
+    url = {https://arxiv.org/pdf/2405.16148}
 }
 
